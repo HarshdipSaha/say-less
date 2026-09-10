@@ -17,6 +17,20 @@ MODEL = os.environ.get("SAYLESS_MODEL", "qwen3.5-4b-32k-fast")
 CACHE_PATH = ROOT / "corpus" / "binder_cache.json"
 _client: OpenAI | None = None
 
+# One-line hints for the model, since a bare field name ("day") is too vague on
+# its own for a small model to reliably infer what to extract. Verified: the
+# original bare-name prompt returned {"bindings":[]} for plain sentences like
+# "Can I book a slot for Tuesday, please?" and "I would like to come in on
+# Monday morning." -- every single real gate day sentence, meaning the
+# evaluation harness measured nothing but escalations until this was found and
+# fixed. Adding these descriptions was enough on its own to recover all of them.
+FIELD_DESCRIPTIONS = {
+    "day": "day of the week the caller wants (e.g. Monday, Tuesday)",
+    "time": "time of day the caller wants",
+    "service": "the service the caller is booking",
+    "surname": "the caller's last name / family name",
+}
+
 
 class BinderCache:
     """Transcript -> binder payload. Committed, so evaluations reproduce offline."""
@@ -41,19 +55,25 @@ class BinderCache:
 def client() -> OpenAI:
     global _client
     if _client is None:
+        # An explicit timeout matters here: an unbounded call was observed to
+        # hang rather than error during development, which is unacceptable in
+        # a harness that makes many sequential binder calls.
         _client = OpenAI(base_url="https://llm-gateway.assemblyai.com/v1",
-                         api_key=os.environ["ASSEMBLYAI_API_KEY"])
+                         api_key=os.environ["ASSEMBLYAI_API_KEY"],
+                         timeout=25.0, max_retries=2)
     return _client
 
 
 def _prompt(transcript: str, schema: dict[str, FieldSpec]) -> str:
+    fields = "\n".join(
+        f"- {name}: {FIELD_DESCRIPTIONS.get(name, name)}" for name in schema)
     return (
         "Extract booking details from a caller's utterance.\n"
-        f"Fields: {', '.join(schema)}.\n"
+        f"Fields (name: description):\n{fields}\n"
         'Return ONLY JSON: {"bindings":[{"field":..,"value":..,'
         '"start":<char index>,"end":<char index>}]}\n'
         "Copy the value EXACTLY as it appears, even if misspelled or nonsensical. "
-        "Never correct it. Never invent a field that was not spoken.\n"
+        "Never correct it. Never invent a value that was not spoken.\n"
         f"Utterance: {transcript}"
     )
 
