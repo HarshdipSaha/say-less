@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: say-less
+    runtime: python
+    buildCommand: pip install -e .
+    startCommand: uvicorn app.server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.6"
+      - key: ASSEMBLYAI_API_KEY
+        sync: false
