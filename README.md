@@ -57,6 +57,8 @@ This is a small, synthetic corpus (see "Audio corpus" above), so treat the speci
 
 **Turns to resolution can still regress on the rejected-offer branch in general**, even though it didn't in this run: when a caller rejects an offer, Say Less spends one turn on "no" and one on the short follow-up answer, where the baseline spends one turn re-saying the whole sentence. Words re-said improves sharply on that branch; turns can cost one more. This trade-off is implemented and tested but simply wasn't triggered here, since the one offer this corpus produced was correct and accepted immediately.
 
+**Reactive keyterms (spec story 11).** `python -m evalharness.run --no-reactive-keyterms` produces the identical table (`eval_results_nokeyterms.json`). That is not evidence the reactive push does nothing — it's because no item in this 15-item corpus ever triggers a genuine retry (a second audio stream after a rejected offer); the one repair this corpus exercised was accepted immediately, so there was never a second stream for the pushed keyterms to bias. The mechanism is implemented and unit-tested (`tests/test_keyterms.py`) and used identically by the harness and the live demo; measuring its effect on retry accuracy needs a corpus item that actually gets rejected once, which this one doesn't have.
+
 ## What it does not solve
 
 - A confidently wrong value that is also a valid member of the field's set (e.g. "Thursday" clearly misheard *as* "Thursday" when the caller said "Tuesday") is invisible to this design by construction. Reported as the residual metric.
