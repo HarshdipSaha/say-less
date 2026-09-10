@@ -1,0 +1,8 @@
+pyproject.toml
+src/evalharness/__init__.py
+src/say_less.egg-info/PKG-INFO
+src/say_less.egg-info/SOURCES.txt
+src/say_less.egg-info/dependency_links.txt
+src/say_less.egg-info/requires.txt
+src/say_less.egg-info/top_level.txt
+src/sayless/__init__.py
