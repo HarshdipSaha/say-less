@@ -1,0 +1,235 @@
+[
+  {
+    "turn_order": 0,
+    "turn_is_formatted": true,
+    "end_of_turn": false,
+    "transcript": "Then I book a",
+    "end_of_turn_confidence": 0.0,
+    "words": [
+      {
+        "start": 0,
+        "end": 301,
+        "text": "Then",
+        "confidence": 0.560985,
+        "word_is_final": false
+      },
+      {
+        "start": 316,
+        "end": 391,
+        "text": "I",
+        "confidence": 0.993751,
+        "word_is_final": false
+      },
+      {
+        "start": 406,
+        "end": 707,
+        "text": "book",
+        "confidence": 0.855241,
+        "word_is_final": false
+      },
+      {
+        "start": 722,
+        "end": 797,
+        "text": "a",
+        "confidence": 0.979922,
+        "word_is_final": false
+      }
+    ],
+    "utterance": "",
+    "type": "Turn"
+  },
+  {
+    "turn_order": 0,
+    "turn_is_formatted": true,
+    "end_of_turn": false,
+    "transcript": "Can I book a slot for Tuesday?",
+    "end_of_turn_confidence": 0.0,
+    "words": [
+      {
+        "start": 0,
+        "end": 201,
+        "text": "Can",
+        "confidence": 0.511857,
+        "word_is_final": false
+      },
+      {
+        "start": 214,
+        "end": 281,
+        "text": "I",
+        "confidence": 0.999979,
+        "word_is_final": false
+      },
+      {
+        "start": 294,
+        "end": 563,
+        "text": "book",
+        "confidence": 0.999969,
+        "word_is_final": false
+      },
+      {
+        "start": 576,
+        "end": 643,
+        "text": "a",
+        "confidence": 0.999968,
+        "word_is_final": false
+      },
+      {
+        "start": 656,
+        "end": 925,
+        "text": "slot",
+        "confidence": 0.999902,
+        "word_is_final": false
+      },
+      {
+        "start": 938,
+        "end": 1139,
+        "text": "for",
+        "confidence": 0.999663,
+        "word_is_final": false
+      },
+      {
+        "start": 1152,
+        "end": 1690,
+        "text": "Tuesday?",
+        "confidence": 0.769326,
+        "word_is_final": false
+      }
+    ],
+    "utterance": "",
+    "type": "Turn"
+  },
+  {
+    "turn_order": 0,
+    "turn_is_formatted": true,
+    "end_of_turn": false,
+    "transcript": "Can I book a slot for Tuesday, please?",
+    "end_of_turn_confidence": 0.0,
+    "words": [
+      {
+        "start": 0,
+        "end": 257,
+        "text": "Can",
+        "confidence": 0.991938,
+        "word_is_final": false
+      },
+      {
+        "start": 274,
+        "end": 359,
+        "text": "I",
+        "confidence": 0.999949,
+        "word_is_final": false
+      },
+      {
+        "start": 376,
+        "end": 719,
+        "text": "book",
+        "confidence": 0.999918,
+        "word_is_final": false
+      },
+      {
+        "start": 736,
+        "end": 821,
+        "text": "a",
+        "confidence": 0.99991,
+        "word_is_final": false
+      },
+      {
+        "start": 838,
+        "end": 1181,
+        "text": "slot",
+        "confidence": 0.999781,
+        "word_is_final": false
+      },
+      {
+        "start": 1198,
+        "end": 1455,
+        "text": "for",
+        "confidence": 0.999843,
+        "word_is_final": false
+      },
+      {
+        "start": 1472,
+        "end": 2159,
+        "text": "Tuesday,",
+        "confidence": 0.994814,
+        "word_is_final": false
+      },
+      {
+        "start": 2176,
+        "end": 2777,
+        "text": "please?",
+        "confidence": 0.999547,
+        "word_is_final": false
+      }
+    ],
+    "utterance": "",
+    "type": "Turn"
+  },
+  {
+    "turn_order": 0,
+    "turn_is_formatted": true,
+    "end_of_turn": true,
+    "transcript": "Can I book a slot for Tuesday, please?",
+    "end_of_turn_confidence": 1.0,
+    "words": [
+      {
+        "start": 0,
+        "end": 277,
+        "text": "Can",
+        "confidence": 0.992323,
+        "word_is_final": true
+      },
+      {
+        "start": 295,
+        "end": 387,
+        "text": "I",
+        "confidence": 0.999932,
+        "word_is_final": true
+      },
+      {
+        "start": 405,
+        "end": 775,
+        "text": "book",
+        "confidence": 0.99987,
+        "word_is_final": true
+      },
+      {
+        "start": 793,
+        "end": 885,
+        "text": "a",
+        "confidence": 0.999903,
+        "word_is_final": true
+      },
+      {
+        "start": 903,
+        "end": 1273,
+        "text": "slot",
+        "confidence": 0.999772,
+        "word_is_final": true
+      },
+      {
+        "start": 1291,
+        "end": 1568,
+        "text": "for",
+        "confidence": 0.999818,
+        "word_is_final": true
+      },
+      {
+        "start": 1586,
+        "end": 2326,
+        "text": "Tuesday,",
+        "confidence": 0.998276,
+        "word_is_final": true
+      },
+      {
+        "start": 2344,
+        "end": 2992,
+        "text": "please?",
+        "confidence": 0.999602,
+        "word_is_final": true
+      }
+    ],
+    "utterance": "Can I book a slot for Tuesday, please?",
+    "type": "Turn"
+  }
+]
