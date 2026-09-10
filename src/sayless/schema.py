@@ -9,9 +9,29 @@ KEYTERM_MAX_LEN = 50
 # Gate result (docs/STATUS.md, 2026-09-10): rank recovery 3/3 (100%), but
 # confidence did NOT separate correct from misheard tokens (misheard mean
 # confidence 0.992 was higher than correct mean confidence 0.967). Decision:
-# Go, confidence-independent. Set to 0.0 so the trigger is set membership
-# alone. baseline.py reads the same value, so the arms never diverge here.
-CONFIDENCE_THRESHOLD = 0.0
+# Go, confidence-independent.
+#
+# "Confidence-independent" is implemented in planner.py's control flow, not by
+# zeroing this constant: an out-of-set value ALWAYS triggers a repair
+# regardless of confidence (planner.py's primary check has no confidence term
+# at all), which is what makes Say Less's headline claim -- it catches a
+# confidently wrong value the baseline can't -- true independent of whatever
+# this threshold is set to.
+#
+# This constant only gates two secondary things: Say Less's "in-set but
+# shaky" fallback, and the baseline's entire trigger (the baseline has no
+# set-membership concept, so confidence is ALL it has). Setting it to 0.0
+# was tried first and is wrong: it doesn't just drop confidence from Say
+# Less's pitch, it silently disables the baseline's only mechanism, making
+# it accept everything and turning the A/B comparison into a strawman that
+# would flatter Say Less for a reason unrelated to the actual design
+# difference (confirmed by running tests/test_baseline.py -- two tests
+# crashed with the baseline never triggering at all). 0.65 is kept instead:
+# a literature-typical confidence floor, shared by both arms so neither is
+# arbitrarily handicapped, representing realistic deployed-agent behaviour
+# for the baseline while remaining honest that the gate did not validate
+# this specific number as discriminating in Say Less's own secondary check.
+CONFIDENCE_THRESHOLD = 0.65
 
 ROOT = Path(__file__).resolve().parents[2]
 

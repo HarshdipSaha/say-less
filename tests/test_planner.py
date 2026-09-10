@@ -1,22 +1,16 @@
 import pytest
 from sayless.moves import MoveKind
 from sayless.planner import RepairState, plan_repair
-from sayless.schema import BOOKING_SCHEMA, FieldSpec
+from sayless.schema import BOOKING_SCHEMA
 from tests.helpers import bound, turn
 
 CASES = [
     ("in set and confident -> silence",
      [("book", 0.99), ("Tuesday", 0.95)], 0.9, [bound("day", "Tuesday", 1)], None, None),
 
-    # Production is confidence-independent (docs/STATUS.md gate result:
-    # confidence did not separate correct from misheard tokens, so
-    # CONFIDENCE_THRESHOLD = 0.0). An in-set value is therefore accepted
-    # regardless of how low its confidence reads -- the "shaky" branch below
-    # is what would fire if a nonzero threshold were configured; see
-    # test_shaky_in_set_value_triggers_a_repair_when_a_threshold_is_set for
-    # proof the mechanism itself still works.
-    ("in set, low confidence, confidence-independent config -> silence anyway",
-     [("book", 0.99), ("Tuesday", 0.02)], 0.9, [bound("day", "Tuesday", 1)], None, None),
+    ("in set but shaky -> offer the heard value back",
+     [("book", 0.99), ("Tuesday", 0.30)], 0.9, [bound("day", "Tuesday", 1)],
+     MoveKind.RESTRICTED_OFFER, ("Tuesday",)),
 
     ("out of set, one strong candidate -> offer it",
      [("book", 0.99), ("chewsday", 0.40)], 0.9, [bound("day", "chewsday", 1)],
@@ -45,18 +39,6 @@ def test_ladder(name, words, eot, fields, kind, cands):
     assert move.kind is kind
     if cands:
         assert move.candidates == cands
-
-
-def test_shaky_in_set_value_triggers_a_repair_when_a_threshold_is_set():
-    """The confidence-secondary-signal mechanism is real code, not dead code --
-    it is simply configured off in production because the gate found confidence
-    didn't discriminate. Prove it still fires given a schema that sets a
-    nonzero confidence_threshold, independent of the production BOOKING_SCHEMA."""
-    thresholded_schema = {"day": FieldSpec("day", "day", BOOKING_SCHEMA["day"].values,
-                                           confidence_threshold=0.65)}
-    move = plan_repair(turn([("book", 0.99), ("Tuesday", 0.30)]),
-                       [bound("day", "Tuesday", 1)], thresholded_schema, RepairState())
-    assert move.kind is MoveKind.RESTRICTED_OFFER and move.candidates == ("Tuesday",)
 
 
 def test_choose_asks_the_category_when_three_candidates_tie():
