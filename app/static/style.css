@@ -1,0 +1,19 @@
+:root { --bg:#faf9f7; --fg:#1b1b1a; --low:#c2410c; --ok:#4d7c0f; }
+* { box-sizing: border-box; }
+body { margin:0; padding:0 16px; font:16px/1.5 system-ui,sans-serif; background:var(--bg); color:var(--fg); }
+header { padding-block:24px; }
+h1 { margin:0; font-size:28px; }
+header p { margin:4px 0 0; opacity:.7; }
+main { display:grid; gap:24px; grid-template-columns:1fr; max-width:960px; }
+@media (min-width:760px) { main { grid-template-columns:1fr 1fr; } }
+#ptt { width:100%; padding:24px; font-size:18px; border:2px solid var(--fg); border-radius:12px; background:transparent; cursor:pointer; }
+#ptt.live { background:var(--fg); color:var(--bg); }
+#agent { font-size:22px; min-height:2em; margin-top:16px; }
+#move { font-size:13px; opacity:.6; }
+.w { padding:2px 4px; border-radius:4px; }
+.w.low { background:#fed7aa; color:var(--low); font-weight:600; }
+.w.ok { color:var(--ok); }
+.field { margin-bottom:6px; font-size:13px; }
+.field span { opacity:.65; }
+pre { background:#fff; padding:12px; border-radius:8px; overflow-x:auto; }
+h2 { font-size:13px; text-transform:uppercase; letter-spacing:.06em; opacity:.6; margin-bottom:6px; }

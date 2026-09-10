@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Say Less</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Say Less</h1>
+    <p>The agent asks about the word, not the sentence.</p>
+  </header>
+  <main>
+    <section>
+      <button id="ptt">Hold to talk</button>
+      <p id="agent" aria-live="polite"></p>
+      <p id="move"></p>
+    </section>
+    <section>
+      <h2>What it heard</h2>
+      <div id="words"></div>
+      <h2>Allowed values</h2>
+      <div id="schema"></div>
+      <h2>Booking</h2>
+      <pre id="values">{}</pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
