@@ -27,7 +27,7 @@ _client: OpenAI | None = None
 FIELD_DESCRIPTIONS = {
     "day": "day of the week the caller wants (e.g. Monday, Tuesday)",
     "time": "time of day the caller wants",
-    "service": "the service the caller is booking",
+    "service": "the service the caller is booking (e.g. haircut, beard trim)",
     "surname": "the caller's last name / family name",
 }
 
@@ -64,22 +64,32 @@ def client() -> OpenAI:
     return _client
 
 
-# Two examples, deliberately different in kind, not just in field. A single
-# clean example ("Friday") was tried first and fixed recall on phrasings like
-# "Let's do Wednesday..." / "...move it to Thursday instead" -- but it also
-# anchored the model toward what a "day" value is supposed to look like
-# strongly enough that a genuinely misheard value ("chewsday") got silently
-# RECLASSIFIED to the "service" field instead of staying under "day". That is
-# a worse failure than a missed binding: it breaks the one behaviour the whole
-# project depends on. The second example exists specifically to counteract
-# that -- it shows a garbled value staying in its correct field, unmodified.
+# Paired examples, one clean and one garbled, for each field found to need
+# them empirically -- not speculatively for all four. A single clean example
+# was tried first for "day" and fixed recall on phrasings like "Let's do
+# Wednesday..." / "...move it to Thursday instead" -- but it also anchored the
+# model toward what a "day" value is supposed to look like strongly enough
+# that a genuinely misheard value ("chewsday") got silently RECLASSIFIED to
+# the "service" field instead of staying under "day". That is a worse failure
+# than a missed binding: it breaks the one behaviour the whole project depends
+# on. Each garbled-preserved example exists specifically to counteract that
+# for its field. The same clean-only failure was independently observed for
+# "service" ("I would like a beard trim" and "just a haircut today thanks"
+# both returned empty bindings with descriptions alone), so it gets the same
+# pair. "surname" and "time" were not observed to need this in testing and are
+# left without examples rather than adding untested prompt surface area.
 _BINDER_EXAMPLES = (
     'Examples:\n'
     'utterance "Lets book Friday please" -> '
     '{"bindings":[{"field":"day","value":"Friday","start":11,"end":17}]}\n'
     'utterance "can I book a chewsday appointment" -> '
     '{"bindings":[{"field":"day","value":"chewsday","start":13,"end":21}]} '
-    '(garbled but still the day slot -- copy it exactly, do not correct or reassign it)'
+    '(garbled but still the day slot -- copy it exactly, do not correct or reassign it)\n'
+    'utterance "I would like a haircut" -> '
+    '{"bindings":[{"field":"service","value":"haircut","start":15,"end":22}]}\n'
+    'utterance "can I get a hairkut please" -> '
+    '{"bindings":[{"field":"service","value":"hairkut","start":11,"end":18}]} '
+    '(garbled but still the service slot -- copy it exactly)'
 )
 
 
