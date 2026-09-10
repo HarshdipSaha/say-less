@@ -64,12 +64,32 @@ def client() -> OpenAI:
     return _client
 
 
+# Two examples, deliberately different in kind, not just in field. A single
+# clean example ("Friday") was tried first and fixed recall on phrasings like
+# "Let's do Wednesday..." / "...move it to Thursday instead" -- but it also
+# anchored the model toward what a "day" value is supposed to look like
+# strongly enough that a genuinely misheard value ("chewsday") got silently
+# RECLASSIFIED to the "service" field instead of staying under "day". That is
+# a worse failure than a missed binding: it breaks the one behaviour the whole
+# project depends on. The second example exists specifically to counteract
+# that -- it shows a garbled value staying in its correct field, unmodified.
+_BINDER_EXAMPLES = (
+    'Examples:\n'
+    'utterance "Lets book Friday please" -> '
+    '{"bindings":[{"field":"day","value":"Friday","start":11,"end":17}]}\n'
+    'utterance "can I book a chewsday appointment" -> '
+    '{"bindings":[{"field":"day","value":"chewsday","start":13,"end":21}]} '
+    '(garbled but still the day slot -- copy it exactly, do not correct or reassign it)'
+)
+
+
 def _prompt(transcript: str, schema: dict[str, FieldSpec]) -> str:
     fields = "\n".join(
         f"- {name}: {FIELD_DESCRIPTIONS.get(name, name)}" for name in schema)
     return (
         "Extract booking details from a caller's utterance.\n"
         f"Fields (name: description):\n{fields}\n"
+        f"{_BINDER_EXAMPLES}\n"
         'Return ONLY JSON: {"bindings":[{"field":..,"value":..,'
         '"start":<char index>,"end":<char index>}]}\n'
         "Copy the value EXACTLY as it appears, even if misspelled or nonsensical. "
