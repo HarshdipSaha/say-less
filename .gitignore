@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+*.egg-info/
 .env
 corpus/audio/slurp/
 corpus/demo_binder_cache.json
