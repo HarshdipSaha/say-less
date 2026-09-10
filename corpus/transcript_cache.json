@@ -1,0 +1,1364 @@
+{
+  "[\"day_01_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Can I book a slot for Tuesday, please?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.992323,
+        "end_ms": 277,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.999932,
+        "end_ms": 387,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 295,
+        "text": "I"
+      },
+      {
+        "confidence": 0.99987,
+        "end_ms": 775,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 405,
+        "text": "book"
+      },
+      {
+        "confidence": 0.999903,
+        "end_ms": 885,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 793,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999772,
+        "end_ms": 1273,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 903,
+        "text": "slot"
+      },
+      {
+        "confidence": 0.999818,
+        "end_ms": 1568,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1291,
+        "text": "for"
+      },
+      {
+        "confidence": 0.998276,
+        "end_ms": 2326,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1586,
+        "text": "Tuesday,"
+      },
+      {
+        "confidence": 0.999602,
+        "end_ms": 2992,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2344,
+        "text": "please?"
+      }
+    ]
+  },
+  "[\"day_01_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Can I book a slot for Tuesday, please?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.996624,
+        "end_ms": 296,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.999976,
+        "end_ms": 413,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 315,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999883,
+        "end_ms": 827,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 432,
+        "text": "book"
+      },
+      {
+        "confidence": 0.999845,
+        "end_ms": 944,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 846,
+        "text": "a"
+      },
+      {
+        "confidence": 0.997812,
+        "end_ms": 1358,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 963,
+        "text": "slot"
+      },
+      {
+        "confidence": 0.999948,
+        "end_ms": 1673,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1377,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999211,
+        "end_ms": 2482,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1692,
+        "text": "Tuesday,"
+      },
+      {
+        "confidence": 0.99978,
+        "end_ms": 3192,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2501,
+        "text": "please?"
+      }
+    ]
+  },
+  "[\"day_02_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I would like to come in on Monday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997666,
+        "end_ms": 91,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999559,
+        "end_ms": 566,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 109,
+        "text": "would"
+      },
+      {
+        "confidence": 0.999982,
+        "end_ms": 950,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 584,
+        "text": "like"
+      },
+      {
+        "confidence": 0.99998,
+        "end_ms": 1151,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 968,
+        "text": "to"
+      },
+      {
+        "confidence": 0.999978,
+        "end_ms": 1535,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1169,
+        "text": "come"
+      },
+      {
+        "confidence": 0.999936,
+        "end_ms": 1736,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1553,
+        "text": "in"
+      },
+      {
+        "confidence": 0.999954,
+        "end_ms": 1937,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1754,
+        "text": "on"
+      },
+      {
+        "confidence": 0.996451,
+        "end_ms": 2595,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1955,
+        "text": "Monday."
+      }
+    ]
+  },
+  "[\"day_03_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Let's do Wednesday if that works for you.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.992504,
+        "end_ms": 423,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Let's"
+      },
+      {
+        "confidence": 0.999905,
+        "end_ms": 608,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 439,
+        "text": "do"
+      },
+      {
+        "confidence": 0.999242,
+        "end_ms": 1386,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 624,
+        "text": "Wednesday"
+      },
+      {
+        "confidence": 0.950691,
+        "end_ms": 1571,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1402,
+        "text": "if"
+      },
+      {
+        "confidence": 0.999978,
+        "end_ms": 1925,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1587,
+        "text": "that"
+      },
+      {
+        "confidence": 0.999975,
+        "end_ms": 2364,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1941,
+        "text": "works"
+      },
+      {
+        "confidence": 0.999934,
+        "end_ms": 2634,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2380,
+        "text": "for"
+      },
+      {
+        "confidence": 0.991093,
+        "end_ms": 2988,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2650,
+        "text": "you."
+      }
+    ]
+  },
+  "[\"day_03_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Let's do Wednesday if that works for you.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.995751,
+        "end_ms": 451,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Let's"
+      },
+      {
+        "confidence": 0.999779,
+        "end_ms": 649,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 469,
+        "text": "do"
+      },
+      {
+        "confidence": 0.999775,
+        "end_ms": 1480,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 667,
+        "text": "Wednesday"
+      },
+      {
+        "confidence": 0.966906,
+        "end_ms": 1678,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1498,
+        "text": "if"
+      },
+      {
+        "confidence": 0.999984,
+        "end_ms": 2057,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1696,
+        "text": "that"
+      },
+      {
+        "confidence": 0.999977,
+        "end_ms": 2526,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 2075,
+        "text": "works"
+      },
+      {
+        "confidence": 0.999971,
+        "end_ms": 2815,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2544,
+        "text": "for"
+      },
+      {
+        "confidence": 0.984011,
+        "end_ms": 3194,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2833,
+        "text": "you."
+      }
+    ]
+  },
+  "[\"day_04_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Actually, can we move it to Thursday instead?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.998074,
+        "end_ms": 730,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Actually,"
+      },
+      {
+        "confidence": 0.99988,
+        "end_ms": 989,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 746,
+        "text": "can"
+      },
+      {
+        "confidence": 0.999871,
+        "end_ms": 1167,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1005,
+        "text": "we"
+      },
+      {
+        "confidence": 0.999847,
+        "end_ms": 1507,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1183,
+        "text": "move"
+      },
+      {
+        "confidence": 0.999853,
+        "end_ms": 1685,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1523,
+        "text": "it"
+      },
+      {
+        "confidence": 0.99989,
+        "end_ms": 1863,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1701,
+        "text": "to"
+      },
+      {
+        "confidence": 0.9998,
+        "end_ms": 2528,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1879,
+        "text": "Thursday"
+      },
+      {
+        "confidence": 0.997638,
+        "end_ms": 3193,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2544,
+        "text": "instead?"
+      }
+    ]
+  },
+  "[\"day_04_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Actually, can we move it to Thursday instead?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997111,
+        "end_ms": 774,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Actually,"
+      },
+      {
+        "confidence": 0.999658,
+        "end_ms": 1049,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 791,
+        "text": "can"
+      },
+      {
+        "confidence": 0.993202,
+        "end_ms": 1238,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1066,
+        "text": "we"
+      },
+      {
+        "confidence": 0.999795,
+        "end_ms": 1599,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1255,
+        "text": "move"
+      },
+      {
+        "confidence": 0.999776,
+        "end_ms": 1788,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1616,
+        "text": "it"
+      },
+      {
+        "confidence": 0.999914,
+        "end_ms": 1977,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1805,
+        "text": "to"
+      },
+      {
+        "confidence": 0.999823,
+        "end_ms": 2682,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1994,
+        "text": "Thursday"
+      },
+      {
+        "confidence": 0.996759,
+        "end_ms": 3387,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2699,
+        "text": "instead?"
+      }
+    ]
+  },
+  "[\"day_05_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Friday would be perfect for me.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.998275,
+        "end_ms": 555,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Friday"
+      },
+      {
+        "confidence": 0.999702,
+        "end_ms": 1035,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 573,
+        "text": "would"
+      },
+      {
+        "confidence": 0.999986,
+        "end_ms": 1238,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1053,
+        "text": "be"
+      },
+      {
+        "confidence": 0.999968,
+        "end_ms": 1904,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1256,
+        "text": "perfect"
+      },
+      {
+        "confidence": 0.999948,
+        "end_ms": 2199,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1922,
+        "text": "for"
+      },
+      {
+        "confidence": 0.983671,
+        "end_ms": 2494,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2217,
+        "text": "me."
+      }
+    ]
+  },
+  "[\"sur_01_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "The booking is under Sharma.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.986903,
+        "end_ms": 278,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "The"
+      },
+      {
+        "confidence": 0.988734,
+        "end_ms": 945,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 296,
+        "text": "booking"
+      },
+      {
+        "confidence": 0.999887,
+        "end_ms": 1148,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 963,
+        "text": "is"
+      },
+      {
+        "confidence": 0.999696,
+        "end_ms": 1629,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1166,
+        "text": "under"
+      },
+      {
+        "confidence": 0.989417,
+        "end_ms": 2296,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1647,
+        "text": "Sharma."
+      }
+    ]
+  },
+  "[\"sur_02_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "My last name is Patel.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.995263,
+        "end_ms": 255,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "My"
+      },
+      {
+        "confidence": 0.999782,
+        "end_ms": 790,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 280,
+        "text": "last"
+      },
+      {
+        "confidence": 0.999989,
+        "end_ms": 1325,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 815,
+        "text": "name"
+      },
+      {
+        "confidence": 0.9999,
+        "end_ms": 1605,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1350,
+        "text": "is"
+      },
+      {
+        "confidence": 0.984952,
+        "end_ms": 2395,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1630,
+        "text": "Patel."
+      }
+    ]
+  },
+  "[\"sur_03_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "It should be listed under Nguyen.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.865728,
+        "end_ms": 172,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "It"
+      },
+      {
+        "confidence": 0.999952,
+        "end_ms": 706,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 189,
+        "text": "should"
+      },
+      {
+        "confidence": 0.999905,
+        "end_ms": 895,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 723,
+        "text": "be"
+      },
+      {
+        "confidence": 0.999955,
+        "end_ms": 1429,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 912,
+        "text": "listed"
+      },
+      {
+        "confidence": 0.997374,
+        "end_ms": 1877,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1446,
+        "text": "under"
+      },
+      {
+        "confidence": 0.980775,
+        "end_ms": 2497,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1894,
+        "text": "Nguyen."
+      }
+    ]
+  },
+  "[\"sur_04_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "The surname is Hardeep.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.979157,
+        "end_ms": 334,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "The"
+      },
+      {
+        "confidence": 0.999949,
+        "end_ms": 1137,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 356,
+        "text": "surname"
+      },
+      {
+        "confidence": 0.999752,
+        "end_ms": 1382,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1159,
+        "text": "is"
+      },
+      {
+        "confidence": 0.732462,
+        "end_ms": 2297,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1404,
+        "text": "Hardeep."
+      }
+    ]
+  },
+  "[\"sur_05_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Please put it under Rodriguez.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.979576,
+        "end_ms": 601,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Please"
+      },
+      {
+        "confidence": 0.999045,
+        "end_ms": 921,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 621,
+        "text": "put"
+      },
+      {
+        "confidence": 0.999848,
+        "end_ms": 1141,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 941,
+        "text": "it"
+      },
+      {
+        "confidence": 0.99968,
+        "end_ms": 1662,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1161,
+        "text": "under"
+      },
+      {
+        "confidence": 0.955573,
+        "end_ms": 2684,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1682,
+        "text": "Rodriguez."
+      }
+    ]
+  },
+  "[\"svc_01_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I would like a beard trim.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997087,
+        "end_ms": 103,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I"
+      },
+      {
+        "confidence": 0.998948,
+        "end_ms": 639,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 123,
+        "text": "would"
+      },
+      {
+        "confidence": 0.999921,
+        "end_ms": 1072,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 659,
+        "text": "like"
+      },
+      {
+        "confidence": 0.999842,
+        "end_ms": 1195,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1092,
+        "text": "a"
+      },
+      {
+        "confidence": 0.99983,
+        "end_ms": 1731,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1215,
+        "text": "beard"
+      },
+      {
+        "confidence": 0.962241,
+        "end_ms": 2267,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1751,
+        "text": "trim."
+      }
+    ]
+  },
+  "[\"svc_01_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I would like a beard trim.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.99842,
+        "end_ms": 103,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I"
+      },
+      {
+        "confidence": 0.810294,
+        "end_ms": 639,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 123,
+        "text": "would"
+      },
+      {
+        "confidence": 0.999931,
+        "end_ms": 1072,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 659,
+        "text": "like"
+      },
+      {
+        "confidence": 0.999923,
+        "end_ms": 1195,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1092,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999899,
+        "end_ms": 1731,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1215,
+        "text": "beard"
+      },
+      {
+        "confidence": 0.981117,
+        "end_ms": 2267,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1751,
+        "text": "trim."
+      }
+    ]
+  },
+  "[\"svc_02_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Just a haircut today, thanks.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.996972,
+        "end_ms": 322,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Just"
+      },
+      {
+        "confidence": 0.997798,
+        "end_ms": 418,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 338,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999946,
+        "end_ms": 998,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 434,
+        "text": "haircut"
+      },
+      {
+        "confidence": 0.995561,
+        "end_ms": 1497,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1014,
+        "text": "today,"
+      },
+      {
+        "confidence": 0.9547,
+        "end_ms": 2077,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1513,
+        "text": "thanks."
+      }
+    ]
+  },
+  "[\"svc_02_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Just a haircut today, thanks.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997558,
+        "end_ms": 449,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Just"
+      },
+      {
+        "confidence": 0.999811,
+        "end_ms": 583,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 471,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999942,
+        "end_ms": 1391,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 605,
+        "text": "haircut"
+      },
+      {
+        "confidence": 0.992529,
+        "end_ms": 2087,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1413,
+        "text": "today,"
+      },
+      {
+        "confidence": 0.970877,
+        "end_ms": 2895,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2109,
+        "text": "thanks."
+      }
+    ]
+  },
+  "[\"svc_03_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Can I get a hot towel shave, please?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997145,
+        "end_ms": 274,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.999971,
+        "end_ms": 383,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 292,
+        "text": "I"
+      },
+      {
+        "confidence": 0.99995,
+        "end_ms": 675,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 401,
+        "text": "get"
+      },
+      {
+        "confidence": 0.999829,
+        "end_ms": 784,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 693,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999299,
+        "end_ms": 1076,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 802,
+        "text": "hot"
+      },
+      {
+        "confidence": 0.999908,
+        "end_ms": 1551,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1094,
+        "text": "towel"
+      },
+      {
+        "confidence": 0.99266,
+        "end_ms": 2118,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1569,
+        "text": "shave,"
+      },
+      {
+        "confidence": 0.997947,
+        "end_ms": 2777,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2136,
+        "text": "please?"
+      }
+    ]
+  },
+  "[\"svc_03_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Can I get a hot towel shake, please?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.99812,
+        "end_ms": 293,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.999967,
+        "end_ms": 409,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 312,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999962,
+        "end_ms": 721,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 428,
+        "text": "get"
+      },
+      {
+        "confidence": 0.999941,
+        "end_ms": 837,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 740,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999639,
+        "end_ms": 1149,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 856,
+        "text": "hot"
+      },
+      {
+        "confidence": 0.999727,
+        "end_ms": 1657,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1168,
+        "text": "towel"
+      },
+      {
+        "confidence": 0.546195,
+        "end_ms": 2263,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1676,
+        "text": "shake,"
+      },
+      {
+        "confidence": 0.999367,
+        "end_ms": 2967,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2282,
+        "text": "please?"
+      }
+    ]
+  },
+  "[\"svc_04_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I'm booking in for a head massage this time.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.999052,
+        "end_ms": 255,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I'm"
+      },
+      {
+        "confidence": 0.999475,
+        "end_ms": 867,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 272,
+        "text": "booking"
+      },
+      {
+        "confidence": 0.995504,
+        "end_ms": 1054,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 884,
+        "text": "in"
+      },
+      {
+        "confidence": 0.999972,
+        "end_ms": 1326,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1071,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999928,
+        "end_ms": 1428,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1343,
+        "text": "a"
+      },
+      {
+        "confidence": 0.999448,
+        "end_ms": 1785,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1445,
+        "text": "head"
+      },
+      {
+        "confidence": 0.999994,
+        "end_ms": 2397,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1802,
+        "text": "massage"
+      },
+      {
+        "confidence": 0.999062,
+        "end_ms": 2754,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2414,
+        "text": "this"
+      },
+      {
+        "confidence": 0.97706,
+        "end_ms": 3196,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2771,
+        "text": "time."
+      }
+    ]
+  },
+  "[\"svc_04_t2.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I'm booking in for a head massage this time.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.998605,
+        "end_ms": 271,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I'm"
+      },
+      {
+        "confidence": 0.997336,
+        "end_ms": 921,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 289,
+        "text": "booking"
+      },
+      {
+        "confidence": 0.996551,
+        "end_ms": 1119,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 939,
+        "text": "in"
+      },
+      {
+        "confidence": 0.999977,
+        "end_ms": 1408,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1137,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999958,
+        "end_ms": 1516,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1426,
+        "text": "a"
+      },
+      {
+        "confidence": 0.998928,
+        "end_ms": 1895,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1534,
+        "text": "head"
+      },
+      {
+        "confidence": 0.999995,
+        "end_ms": 2545,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1913,
+        "text": "massage"
+      },
+      {
+        "confidence": 0.999242,
+        "end_ms": 2924,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2563,
+        "text": "this"
+      },
+      {
+        "confidence": 0.981704,
+        "end_ms": 3394,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2942,
+        "text": "time."
+      }
+    ]
+  },
+  "[\"svc_05_t1.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "She wants a kid's cut for her son.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.979662,
+        "end_ms": 273,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "She"
+      },
+      {
+        "confidence": 0.995738,
+        "end_ms": 747,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 291,
+        "text": "wants"
+      },
+      {
+        "confidence": 0.983742,
+        "end_ms": 856,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 765,
+        "text": "a"
+      },
+      {
+        "confidence": 0.984762,
+        "end_ms": 1330,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 874,
+        "text": "kid's"
+      },
+      {
+        "confidence": 0.997823,
+        "end_ms": 1621,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1348,
+        "text": "cut"
+      },
+      {
+        "confidence": 0.999595,
+        "end_ms": 1912,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1639,
+        "text": "for"
+      },
+      {
+        "confidence": 0.99992,
+        "end_ms": 2203,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1930,
+        "text": "her"
+      },
+      {
+        "confidence": 0.992665,
+        "end_ms": 2586,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2221,
+        "text": "son."
+      }
+    ]
+  }
+}

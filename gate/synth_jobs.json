@@ -19,13 +19,13 @@
   },
   {
     "out": "day_02_t1",
-    "text": "I would like to come in on Monday morning",
+    "text": "I would like to come in on Monday",
     "voice": "David",
     "rate": 0
   },
   {
     "out": "day_02_t2",
-    "text": "I would like to come in on Monday morning",
+    "text": "I would like to come in on Monday",
     "voice": "Zira",
     "rate": -1
   },
@@ -73,13 +73,13 @@
   },
   {
     "out": "day_05_t1",
-    "text": "Friday afternoon would be perfect for me",
+    "text": "Friday would be perfect for me",
     "voice": "David",
     "rate": 0
   },
   {
     "out": "day_05_t2",
-    "text": "Friday afternoon would be perfect for me",
+    "text": "Friday would be perfect for me",
     "voice": "Zira",
     "rate": -1
   },

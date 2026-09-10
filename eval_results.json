@@ -1,0 +1,355 @@
+{
+  "reactive_keyterms": true,
+  "baseline": {
+    "n": 15.0,
+    "words_re_said": 0.0,
+    "turns_to_resolution": 1.0,
+    "commit_accuracy": 0.9333333333333333,
+    "escalation_rate": 0.0,
+    "residual": 0.0
+  },
+  "sayless": {
+    "n": 15.0,
+    "words_re_said": 0.06666666666666667,
+    "turns_to_resolution": 1.0,
+    "commit_accuracy": 1.0,
+    "escalation_rate": 0.0,
+    "residual": 0.0
+  },
+  "records": {
+    "baseline": [
+      {
+        "item_id": "day_01",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_02",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_03",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_04",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_05",
+        "field": "day",
+        "truth": "Friday",
+        "committed": "Friday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_01",
+        "field": "service",
+        "truth": "beard trim",
+        "committed": "beard trim",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_02",
+        "field": "service",
+        "truth": "haircut",
+        "committed": "haircut",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_03",
+        "field": "service",
+        "truth": "hot towel shave",
+        "committed": "hot towel shave",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_04",
+        "field": "service",
+        "truth": "head massage",
+        "committed": "head massage",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_05",
+        "field": "service",
+        "truth": "kids cut",
+        "committed": "kid's cut",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": false,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_01",
+        "field": "surname",
+        "truth": "Sharma",
+        "committed": "Sharma",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_02",
+        "field": "surname",
+        "truth": "Patel",
+        "committed": "Patel",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_03",
+        "field": "surname",
+        "truth": "Nguyen",
+        "committed": "Nguyen",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_04",
+        "field": "surname",
+        "truth": "Hardeep",
+        "committed": "Hardeep",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_05",
+        "field": "surname",
+        "truth": "Rodriguez",
+        "committed": "Rodriguez",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      }
+    ],
+    "sayless": [
+      {
+        "item_id": "day_01",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_02",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_03",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_04",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "day_05",
+        "field": "day",
+        "truth": "Friday",
+        "committed": "Friday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_01",
+        "field": "service",
+        "truth": "beard trim",
+        "committed": "beard trim",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_02",
+        "field": "service",
+        "truth": "haircut",
+        "committed": "haircut",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_03",
+        "field": "service",
+        "truth": "hot towel shave",
+        "committed": "hot towel shave",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_04",
+        "field": "service",
+        "truth": "head massage",
+        "committed": "head massage",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "svc_05",
+        "field": "service",
+        "truth": "kids cut",
+        "committed": "kids cut",
+        "turns": 1,
+        "repair_words": 1,
+        "wrong_was_in_set": false,
+        "wrong_was_confident": false,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_01",
+        "field": "surname",
+        "truth": "Sharma",
+        "committed": "Sharma",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_02",
+        "field": "surname",
+        "truth": "Patel",
+        "committed": "Patel",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_03",
+        "field": "surname",
+        "truth": "Nguyen",
+        "committed": "Nguyen",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_04",
+        "field": "surname",
+        "truth": "Hardeep",
+        "committed": "Hardeep",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "sur_05",
+        "field": "surname",
+        "truth": "Rodriguez",
+        "committed": "Rodriguez",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      }
+    ]
+  }
+}

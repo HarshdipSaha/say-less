@@ -1,0 +1,162 @@
+{
+  "actually, can we move it to thursday instead?": {
+    "bindings": [
+      {
+        "end": 38,
+        "field": "day",
+        "start": 30,
+        "value": "Thursday"
+      }
+    ]
+  },
+  "can i book a slot for tuesday, please?": {
+    "bindings": [
+      {
+        "end": 27,
+        "field": "day",
+        "start": 21,
+        "value": "Tuesday"
+      }
+    ]
+  },
+  "can i get a hot towel shave, please?": {
+    "bindings": [
+      {
+        "end": 25,
+        "field": "service",
+        "start": 11,
+        "value": "hot towel shave"
+      }
+    ]
+  },
+  "friday would be perfect for me.": {
+    "bindings": [
+      {
+        "end": 6,
+        "field": "day",
+        "start": 0,
+        "value": "Friday"
+      }
+    ]
+  },
+  "i would like a beard trim.": {
+    "bindings": [
+      {
+        "end": 24,
+        "field": "service",
+        "start": 14,
+        "value": "beard trim"
+      }
+    ]
+  },
+  "i would like to come in on monday.": {
+    "bindings": [
+      {
+        "end": 35,
+        "field": "day",
+        "start": 29,
+        "value": "Monday"
+      }
+    ]
+  },
+  "i'm booking in for a head massage this time.": {
+    "bindings": [
+      {
+        "end": 32,
+        "field": "service",
+        "start": 20,
+        "value": "head massage"
+      }
+    ]
+  },
+  "it should be listed under nguyen.": {
+    "bindings": [
+      {
+        "end": 19,
+        "field": "surname",
+        "start": 13,
+        "value": "Nguyen"
+      }
+    ]
+  },
+  "just a haircut today, thanks.": {
+    "bindings": [
+      {
+        "end": 17,
+        "field": "service",
+        "start": 10,
+        "value": "haircut"
+      }
+    ]
+  },
+  "let's do wednesday if that works for you.": {
+    "bindings": [
+      {
+        "end": 18,
+        "field": "day",
+        "start": 10,
+        "value": "Wednesday"
+      }
+    ]
+  },
+  "monday.": {
+    "bindings": [
+      {
+        "end": 6,
+        "field": "day",
+        "start": 0,
+        "value": "Monday"
+      }
+    ]
+  },
+  "my last name is patel.": {
+    "bindings": [
+      {
+        "end": 16,
+        "field": "surname",
+        "start": 11,
+        "value": "Patel"
+      }
+    ]
+  },
+  "please put it under rodriguez.": {
+    "bindings": [
+      {
+        "end": 24,
+        "field": "surname",
+        "start": 13,
+        "value": "Rodriguez"
+      }
+    ]
+  },
+  "she wants a kid's cut for her son.": {
+    "bindings": [
+      {
+        "end": 18,
+        "field": "service",
+        "start": 10,
+        "value": "kid's cut"
+      }
+    ]
+  },
+  "the booking is under sharma.": {
+    "bindings": [
+      {
+        "end": 20,
+        "field": "surname",
+        "start": 14,
+        "value": "Sharma"
+      }
+    ]
+  },
+  "the surname is hardeep.": {
+    "bindings": [
+      {
+        "end": 17,
+        "field": "surname",
+        "start": 10,
+        "value": "Hardeep"
+      }
+    ]
+  }
+}
