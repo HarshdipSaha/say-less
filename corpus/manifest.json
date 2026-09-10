@@ -1,0 +1,129 @@
+{
+  "fields": {
+    "day": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "service": ["haircut","beard trim","hot towel shave","colour","consultation",
+                "head massage","kids cut","fringe trim","blow dry","styling"]
+  },
+  "items": [
+    {
+      "id": "day_01", "field": "day", "truth": "Tuesday",
+      "sentence": "can I book a slot for Tuesday please",
+      "slot_span": [6, 7],
+      "take1": "audio/day_01_t1.wav",
+      "take2": "audio/day_01_t2.wav",
+      "answer": "audio/day_01_ans.wav"
+    },
+    {
+      "id": "day_02", "field": "day", "truth": "Monday",
+      "sentence": "I would like to come in on Monday morning",
+      "slot_span": [7, 8],
+      "take1": "audio/day_02_t1.wav",
+      "take2": "audio/day_02_t2.wav",
+      "answer": "audio/day_02_ans.wav"
+    },
+    {
+      "id": "day_03", "field": "day", "truth": "Wednesday",
+      "sentence": "lets do Wednesday if that works for you",
+      "slot_span": [2, 3],
+      "take1": "audio/day_03_t1.wav",
+      "take2": "audio/day_03_t2.wav",
+      "answer": "audio/day_03_ans.wav"
+    },
+    {
+      "id": "day_04", "field": "day", "truth": "Thursday",
+      "sentence": "actually can we move it to Thursday instead",
+      "slot_span": [6, 7],
+      "take1": "audio/day_04_t1.wav",
+      "take2": "audio/day_04_t2.wav",
+      "answer": "audio/day_04_ans.wav"
+    },
+    {
+      "id": "day_05", "field": "day", "truth": "Friday",
+      "sentence": "Friday afternoon would be perfect for me",
+      "slot_span": [0, 1],
+      "take1": "audio/day_05_t1.wav",
+      "take2": "audio/day_05_t2.wav",
+      "answer": "audio/day_05_ans.wav"
+    },
+    {
+      "id": "svc_01", "field": "service", "truth": "beard trim",
+      "sentence": "I would like a beard trim",
+      "slot_span": [4, 6],
+      "take1": "audio/svc_01_t1.wav",
+      "take2": "audio/svc_01_t2.wav",
+      "answer": "audio/svc_01_ans.wav"
+    },
+    {
+      "id": "svc_02", "field": "service", "truth": "haircut",
+      "sentence": "just a haircut today thanks",
+      "slot_span": [2, 3],
+      "take1": "audio/svc_02_t1.wav",
+      "take2": "audio/svc_02_t2.wav",
+      "answer": "audio/svc_02_ans.wav"
+    },
+    {
+      "id": "svc_03", "field": "service", "truth": "hot towel shave",
+      "sentence": "can I get a hot towel shave please",
+      "slot_span": [4, 7],
+      "take1": "audio/svc_03_t1.wav",
+      "take2": "audio/svc_03_t2.wav",
+      "answer": "audio/svc_03_ans.wav"
+    },
+    {
+      "id": "svc_04", "field": "service", "truth": "head massage",
+      "sentence": "Im booking in for a head massage this time",
+      "slot_span": [5, 7],
+      "take1": "audio/svc_04_t1.wav",
+      "take2": "audio/svc_04_t2.wav",
+      "answer": "audio/svc_04_ans.wav"
+    },
+    {
+      "id": "svc_05", "field": "service", "truth": "kids cut",
+      "sentence": "she wants a kids cut for her son",
+      "slot_span": [3, 5],
+      "take1": "audio/svc_05_t1.wav",
+      "take2": "audio/svc_05_t2.wav",
+      "answer": "audio/svc_05_ans.wav"
+    },
+    {
+      "id": "sur_01", "field": "surname", "truth": "Sharma",
+      "sentence": "the booking is under Sharma",
+      "slot_span": [4, 5],
+      "take1": "audio/sur_01_t1.wav",
+      "take2": "audio/sur_01_t2.wav",
+      "answer": "audio/sur_01_ans.wav"
+    },
+    {
+      "id": "sur_02", "field": "surname", "truth": "Patel",
+      "sentence": "my last name is Patel",
+      "slot_span": [4, 5],
+      "take1": "audio/sur_02_t1.wav",
+      "take2": "audio/sur_02_t2.wav",
+      "answer": "audio/sur_02_ans.wav"
+    },
+    {
+      "id": "sur_03", "field": "surname", "truth": "Nguyen",
+      "sentence": "it should be listed under Nguyen",
+      "slot_span": [5, 6],
+      "take1": "audio/sur_03_t1.wav",
+      "take2": "audio/sur_03_t2.wav",
+      "answer": "audio/sur_03_ans.wav"
+    },
+    {
+      "id": "sur_04", "field": "surname", "truth": "Hardeep",
+      "sentence": "the surname is Hardeep",
+      "slot_span": [3, 4],
+      "take1": "audio/sur_04_t1.wav",
+      "take2": "audio/sur_04_t2.wav",
+      "answer": "audio/sur_04_ans.wav"
+    },
+    {
+      "id": "sur_05", "field": "surname", "truth": "Rodriguez",
+      "sentence": "please put it under Rodriguez",
+      "slot_span": [4, 5],
+      "take1": "audio/sur_05_t1.wav",
+      "take2": "audio/sur_05_t2.wav",
+      "answer": "audio/sur_05_ans.wav"
+    }
+  ]
+}
