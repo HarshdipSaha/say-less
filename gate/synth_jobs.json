@@ -1,0 +1,284 @@
+[
+  {
+    "out": "day_01_t1",
+    "text": "can I book a slot for Tuesday please",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_01_t2",
+    "text": "can I book a slot for Tuesday please",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "day_01_ans",
+    "text": "Tuesday",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_02_t1",
+    "text": "I would like to come in on Monday morning",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_02_t2",
+    "text": "I would like to come in on Monday morning",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "day_02_ans",
+    "text": "Monday",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_03_t1",
+    "text": "lets do Wednesday if that works for you",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_03_t2",
+    "text": "lets do Wednesday if that works for you",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "day_03_ans",
+    "text": "Wednesday",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_04_t1",
+    "text": "actually can we move it to Thursday instead",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_04_t2",
+    "text": "actually can we move it to Thursday instead",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "day_04_ans",
+    "text": "Thursday",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_05_t1",
+    "text": "Friday afternoon would be perfect for me",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "day_05_t2",
+    "text": "Friday afternoon would be perfect for me",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "day_05_ans",
+    "text": "Friday",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_01_t1",
+    "text": "I would like a beard trim",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_01_t2",
+    "text": "I would like a beard trim",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "svc_01_ans",
+    "text": "beard trim",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_02_t1",
+    "text": "just a haircut today thanks",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_02_t2",
+    "text": "just a haircut today thanks",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "svc_02_ans",
+    "text": "haircut",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_03_t1",
+    "text": "can I get a hot towel shave please",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_03_t2",
+    "text": "can I get a hot towel shave please",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "svc_03_ans",
+    "text": "hot towel shave",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_04_t1",
+    "text": "Im booking in for a head massage this time",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_04_t2",
+    "text": "Im booking in for a head massage this time",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "svc_04_ans",
+    "text": "head massage",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_05_t1",
+    "text": "she wants a kids cut for her son",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "svc_05_t2",
+    "text": "she wants a kids cut for her son",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "svc_05_ans",
+    "text": "kids cut",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_01_t1",
+    "text": "the booking is under Sharma",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_01_t2",
+    "text": "the booking is under Sharma",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "sur_01_ans",
+    "text": "Sharma",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_02_t1",
+    "text": "my last name is Patel",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_02_t2",
+    "text": "my last name is Patel",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "sur_02_ans",
+    "text": "Patel",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_03_t1",
+    "text": "it should be listed under Nguyen",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_03_t2",
+    "text": "it should be listed under Nguyen",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "sur_03_ans",
+    "text": "Nguyen",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_04_t1",
+    "text": "the surname is Hardeep",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_04_t2",
+    "text": "the surname is Hardeep",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "sur_04_ans",
+    "text": "Hardeep",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_05_t1",
+    "text": "please put it under Rodriguez",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "sur_05_t2",
+    "text": "please put it under Rodriguez",
+    "voice": "Zira",
+    "rate": -1
+  },
+  {
+    "out": "sur_05_ans",
+    "text": "Rodriguez",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "yes",
+    "text": "yes",
+    "voice": "David",
+    "rate": 0
+  },
+  {
+    "out": "no",
+    "text": "no",
+    "voice": "David",
+    "rate": 0
+  }
+]

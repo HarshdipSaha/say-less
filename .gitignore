@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 .env
 corpus/audio/slurp/
+corpus/audio/_raw/
 corpus/demo_binder_cache.json
 gate/out/
 .playwright-mcp/
