@@ -1,0 +1,167 @@
+{
+  "harry. i keep mixing them up.": {
+    "bindings": []
+  },
+  "i'm daniel nolan and my daughter's daniela. we have a delta dental. can we do both on thursday? she gets out of school at 2:30.": {
+    "bindings": [
+      {
+        "end": 85,
+        "field": "day",
+        "start": 77,
+        "value": "Thursday"
+      }
+    ]
+  },
+  "i'm daniel nolan. my daughter is danielle. we have delta dental. can we do both on thursday? she gets out of school at 2:30.": {
+    "bindings": [
+      {
+        "end": 84,
+        "field": "day",
+        "start": 76,
+        "value": "Thursday"
+      }
+    ]
+  },
+  "let's book mine first, the monday morning cleaning.": {
+    "bindings": [
+      {
+        "end": 32,
+        "field": "day",
+        "start": 26,
+        "value": "Monday"
+      },
+      {
+        "end": 40,
+        "field": "time",
+        "start": 33,
+        "value": "morning"
+      },
+      {
+        "end": 49,
+        "field": "service",
+        "start": 41,
+        "value": "cleaning"
+      }
+    ]
+  },
+  "monday's fine. i need morning for my cleaning before 11, and danielle can't come in until after 3.": {
+    "bindings": [
+      {
+        "end": 6,
+        "field": "day",
+        "start": 0,
+        "value": "Monday"
+      },
+      {
+        "end": 40,
+        "field": "time",
+        "start": 33,
+        "value": "morning"
+      }
+    ]
+  },
+  "monday.": {
+    "bindings": [
+      {
+        "end": 6,
+        "field": "day",
+        "start": 0,
+        "value": "Monday"
+      }
+    ]
+  },
+  "perfect. let's book mine first, the monday morning cleaning.": {
+    "bindings": [
+      {
+        "end": 36,
+        "field": "day",
+        "start": 30,
+        "value": "Monday"
+      },
+      {
+        "end": 44,
+        "field": "time",
+        "start": 37,
+        "value": "morning"
+      },
+      {
+        "end": 53,
+        "field": "service",
+        "start": 45,
+        "value": "cleaning"
+      }
+    ]
+  },
+  "set a reminder for next saturday, go to the library at 5 o'clock.": {
+    "bindings": [
+      {
+        "end": 31,
+        "field": "day",
+        "start": 23,
+        "value": "Saturday"
+      },
+      {
+        "end": 53,
+        "field": "time",
+        "start": 44,
+        "value": "5 o'clock"
+      }
+    ]
+  },
+  "the 6 am alarm for wednesday.": {
+    "bindings": [
+      {
+        "end": 29,
+        "field": "day",
+        "start": 20,
+        "value": "Wednesday"
+      }
+    ]
+  },
+  "thursday.": {
+    "bindings": [
+      {
+        "end": 8,
+        "field": "day",
+        "start": 0,
+        "value": "Thursday"
+      }
+    ]
+  },
+  "um, monday's fine. i need morning for my cleaning before 11, and daniela can't come until after 3.": {
+    "bindings": [
+      {
+        "end": 10,
+        "field": "day",
+        "start": 4,
+        "value": "Monday"
+      },
+      {
+        "end": 40,
+        "field": "time",
+        "start": 33,
+        "value": "morning"
+      }
+    ]
+  },
+  "wait for danielle's consultation. that's dr. barry, b as in boy, not perry. i keep mixing them up.": {
+    "bindings": [
+      {
+        "end": 32,
+        "field": "service",
+        "start": 20,
+        "value": "consultation"
+      }
+    ]
+  },
+  "weather on tuesday.": {
+    "bindings": [
+      {
+        "end": 17,
+        "field": "day",
+        "start": 11,
+        "value": "Tuesday"
+      }
+    ]
+  }
+}

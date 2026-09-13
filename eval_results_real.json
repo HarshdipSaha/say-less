@@ -1,0 +1,246 @@
+{
+  "dataset": "Appointment-Bench (Samsung S23 + iPhone 16 Pro) & SLURP",
+  "item_count": 10,
+  "baseline": {
+    "n": 10.0,
+    "words_re_said": 0.0,
+    "turns_to_resolution": 1.0,
+    "commit_accuracy": 1.0,
+    "escalation_rate": 0.0,
+    "residual": 0.0
+  },
+  "sayless": {
+    "n": 10.0,
+    "words_re_said": 0.0,
+    "turns_to_resolution": 1.0,
+    "commit_accuracy": 1.0,
+    "escalation_rate": 0.0,
+    "residual": 0.0
+  },
+  "records": {
+    "baseline": [
+      {
+        "item_id": "real_p1_thu",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon2",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_thu",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_con",
+        "field": "service",
+        "truth": "consultation",
+        "committed": "consultation",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon2",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_tue",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_wed",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sat",
+        "field": "day",
+        "truth": "Saturday",
+        "committed": "Saturday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      }
+    ],
+    "sayless": [
+      {
+        "item_id": "real_p1_thu",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon2",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_thu",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_con",
+        "field": "service",
+        "truth": "consultation",
+        "committed": "consultation",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon2",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_tue",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_wed",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sat",
+        "field": "day",
+        "truth": "Saturday",
+        "committed": "Saturday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      }
+    ]
+  }
+}

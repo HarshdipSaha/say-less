@@ -166,7 +166,7 @@ async def transcribe_file(path: Path,
         await asyncio.sleep(0.6)
         try:
             return await _transcribe_file_once(path, keyterms)
-        except websockets.exceptions.ConnectionClosedError as e:
+        except (websockets.ConnectionClosedError, websockets.ConnectionClosed) as e:
             last_exc = e
             await asyncio.sleep(2 * (attempt + 1))
     raise last_exc

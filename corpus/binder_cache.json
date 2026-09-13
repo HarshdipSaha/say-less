@@ -69,6 +69,16 @@
       }
     ]
   },
+  "i'm daniel nolan and my daughter is danielle. we have delta dental. can we do both on thursday? she gets out of school at two-thirty.": {
+    "bindings": [
+      {
+        "end": 87,
+        "field": "day",
+        "start": 79,
+        "value": "Thursday"
+      }
+    ]
+  },
   "it should be listed under nguyen.": {
     "bindings": [
       {
@@ -89,6 +99,28 @@
       }
     ]
   },
+  "let's book mine first \u2014 the monday morning cleaning.": {
+    "bindings": [
+      {
+        "end": 30,
+        "field": "day",
+        "start": 24,
+        "value": "Monday"
+      },
+      {
+        "end": 44,
+        "field": "time",
+        "start": 37,
+        "value": "morning"
+      },
+      {
+        "end": 53,
+        "field": "service",
+        "start": 45,
+        "value": "cleaning"
+      }
+    ]
+  },
   "let's do wednesday if that works for you.": {
     "bindings": [
       {
@@ -96,6 +128,34 @@
         "field": "day",
         "start": 10,
         "value": "Wednesday"
+      }
+    ]
+  },
+  "monday's fine. i need morning for my cleaning \u2014 before eleven. and danielle can't come until after three.": {
+    "bindings": [
+      {
+        "end": 6,
+        "field": "day",
+        "start": 0,
+        "value": "Monday"
+      },
+      {
+        "end": 40,
+        "field": "time",
+        "start": 33,
+        "value": "morning"
+      },
+      {
+        "end": 60,
+        "field": "time",
+        "start": 47,
+        "value": "before eleven"
+      },
+      {
+        "end": 84,
+        "field": "time",
+        "start": 73,
+        "value": "after three"
       }
     ]
   },
@@ -158,5 +218,8 @@
         "value": "Hardeep"
       }
     ]
+  },
+  "wait \u2014 for danielle's consultation, that's dr. barry, b as in boy? not perry? i keep mixing them up.": {
+    "bindings": []
   }
 }
