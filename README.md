@@ -72,6 +72,8 @@ The gap is one booking a normal agent gets **silently wrong** — it heard somet
 
 ## Try it
 
+[Live Link](https://huggingface.co/spaces/Godlyharsh/say-less)
+
 Reproduce every number above with **no API key** — the results replay from committed recordings:
 
 ```bash
