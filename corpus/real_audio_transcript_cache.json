@@ -1291,6 +1291,350 @@
       }
     ]
   },
+  "[\"slurp_fri_6774.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Set an event for Friday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.982802,
+        "end_ms": 317,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Set"
+      },
+      {
+        "confidence": 0.999392,
+        "end_ms": 549,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 338,
+        "text": "an"
+      },
+      {
+        "confidence": 0.999926,
+        "end_ms": 1098,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 570,
+        "text": "event"
+      },
+      {
+        "confidence": 0.998949,
+        "end_ms": 1436,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1119,
+        "text": "for"
+      },
+      {
+        "confidence": 0.995053,
+        "end_ms": 2197,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1457,
+        "text": "Friday."
+      }
+    ]
+  },
+  "[\"slurp_fri_6926.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Is it Friday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.996773,
+        "end_ms": 348,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Is"
+      },
+      {
+        "confidence": 0.999943,
+        "end_ms": 730,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 382,
+        "text": "it"
+      },
+      {
+        "confidence": 0.999868,
+        "end_ms": 1982,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 764,
+        "text": "Friday?"
+      }
+    ]
+  },
+  "[\"slurp_fri_9136.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "And you need it on.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.57265,
+        "end_ms": 512,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "And"
+      },
+      {
+        "confidence": 0.658378,
+        "end_ms": 1058,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 546,
+        "text": "you"
+      },
+      {
+        "confidence": 0.650833,
+        "end_ms": 1775,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1092,
+        "text": "need"
+      },
+      {
+        "confidence": 0.623151,
+        "end_ms": 2150,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1809,
+        "text": "it"
+      },
+      {
+        "confidence": 0.800611,
+        "end_ms": 2696,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 2184,
+        "text": "on."
+      }
+    ]
+  },
+  "[\"slurp_mon_2157.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Whether among the",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.436953,
+        "end_ms": 1294,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 64,
+        "text": "Whether"
+      },
+      {
+        "confidence": 0.654533,
+        "end_ms": 2208,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1329,
+        "text": "among"
+      },
+      {
+        "confidence": 0.53396,
+        "end_ms": 2770,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2243,
+        "text": "the"
+      }
+    ]
+  },
+  "[\"slurp_mon_7454.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Remind me before Monday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.985577,
+        "end_ms": 583,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Remind"
+      },
+      {
+        "confidence": 0.999849,
+        "end_ms": 796,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 602,
+        "text": "me"
+      },
+      {
+        "confidence": 0.999356,
+        "end_ms": 1398,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 815,
+        "text": "before"
+      },
+      {
+        "confidence": 0.99052,
+        "end_ms": 2097,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1417,
+        "text": "Monday."
+      }
+    ]
+  },
+  "[\"slurp_mon_7913.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Remove the event from Monday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.995198,
+        "end_ms": 465,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Remove"
+      },
+      {
+        "confidence": 0.998021,
+        "end_ms": 712,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 480,
+        "text": "the"
+      },
+      {
+        "confidence": 0.919702,
+        "end_ms": 1114,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 727,
+        "text": "event"
+      },
+      {
+        "confidence": 0.95188,
+        "end_ms": 1439,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1129,
+        "text": "from"
+      },
+      {
+        "confidence": 0.991491,
+        "end_ms": 1996,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1454,
+        "text": "Monday."
+      }
+    ]
+  },
+  "[\"slurp_sat_5483.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What is the date next Saturday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.992964,
+        "end_ms": 266,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What"
+      },
+      {
+        "confidence": 0.993419,
+        "end_ms": 412,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 279,
+        "text": "is"
+      },
+      {
+        "confidence": 0.998318,
+        "end_ms": 625,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 425,
+        "text": "the"
+      },
+      {
+        "confidence": 0.999634,
+        "end_ms": 904,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 638,
+        "text": "date"
+      },
+      {
+        "confidence": 0.960993,
+        "end_ms": 1183,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 917,
+        "text": "next"
+      },
+      {
+        "confidence": 0.999728,
+        "end_ms": 1796,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1196,
+        "text": "Saturday?"
+      }
+    ]
+  },
+  "[\"slurp_sat_7741.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Clear my calendar for Saturday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.98478,
+        "end_ms": 773,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Clear"
+      },
+      {
+        "confidence": 0.999841,
+        "end_ms": 1112,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 803,
+        "text": "my"
+      },
+      {
+        "confidence": 0.999763,
+        "end_ms": 2379,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1142,
+        "text": "calendar"
+      },
+      {
+        "confidence": 0.999382,
+        "end_ms": 2873,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2409,
+        "text": "for"
+      },
+      {
+        "confidence": 0.996798,
+        "end_ms": 4295,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2903,
+        "text": "Saturday."
+      }
+    ]
+  },
   "[\"slurp_sat_8447.wav\", []]": {
     "end_of_turn_confidence": 1.0,
     "transcript": "Set a reminder for next Saturday, go to the library at 5 o'clock.",
@@ -1402,6 +1746,461 @@
       }
     ]
   },
+  "[\"slurp_sun_0327.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Sunday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.819281,
+        "end_ms": 1100,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Sunday."
+      }
+    ]
+  },
+  "[\"slurp_sun_8863.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Please delete all reminders of Sunday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.974954,
+        "end_ms": 547,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Please"
+      },
+      {
+        "confidence": 0.999127,
+        "end_ms": 1112,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 565,
+        "text": "delete"
+      },
+      {
+        "confidence": 0.997894,
+        "end_ms": 1403,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1130,
+        "text": "all"
+      },
+      {
+        "confidence": 0.93115,
+        "end_ms": 2241,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1421,
+        "text": "reminders"
+      },
+      {
+        "confidence": 0.895672,
+        "end_ms": 2441,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2259,
+        "text": "of"
+      },
+      {
+        "confidence": 0.985535,
+        "end_ms": 3097,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2459,
+        "text": "Sunday."
+      }
+    ]
+  },
+  "[\"slurp_thu_1037.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What alarms do I have set for Thursday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.976464,
+        "end_ms": 311,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What"
+      },
+      {
+        "confidence": 0.99997,
+        "end_ms": 793,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 326,
+        "text": "alarms"
+      },
+      {
+        "confidence": 0.999786,
+        "end_ms": 963,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 808,
+        "text": "do"
+      },
+      {
+        "confidence": 0.999833,
+        "end_ms": 1055,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 978,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999942,
+        "end_ms": 1381,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1070,
+        "text": "have"
+      },
+      {
+        "confidence": 0.999811,
+        "end_ms": 1629,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1396,
+        "text": "set"
+      },
+      {
+        "confidence": 0.999862,
+        "end_ms": 1877,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1644,
+        "text": "for"
+      },
+      {
+        "confidence": 0.996597,
+        "end_ms": 2592,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1892,
+        "text": "Thursday?"
+      }
+    ]
+  },
+  "[\"slurp_thu_6796.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Is my calendar free for Tuesday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.977511,
+        "end_ms": 207,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Is"
+      },
+      {
+        "confidence": 0.999857,
+        "end_ms": 434,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 227,
+        "text": "my"
+      },
+      {
+        "confidence": 0.999901,
+        "end_ms": 1282,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 454,
+        "text": "calendar"
+      },
+      {
+        "confidence": 0.999875,
+        "end_ms": 1716,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1302,
+        "text": "free"
+      },
+      {
+        "confidence": 0.995618,
+        "end_ms": 2046,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1736,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999835,
+        "end_ms": 2894,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2066,
+        "text": "Tuesday?"
+      }
+    ]
+  },
+  "[\"slurp_thu_8348.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Tell me what's happening next Thursday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.966116,
+        "end_ms": 228,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Tell"
+      },
+      {
+        "confidence": 0.998607,
+        "end_ms": 353,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 239,
+        "text": "me"
+      },
+      {
+        "confidence": 0.997602,
+        "end_ms": 706,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 364,
+        "text": "what's"
+      },
+      {
+        "confidence": 0.951865,
+        "end_ms": 1231,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 717,
+        "text": "happening"
+      },
+      {
+        "confidence": 0.997611,
+        "end_ms": 1470,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1242,
+        "text": "next"
+      },
+      {
+        "confidence": 0.981137,
+        "end_ms": 1995,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1481,
+        "text": "Thursday."
+      }
+    ]
+  },
+  "[\"slurp_time_0533.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Set it up on my, um,",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.253467,
+        "end_ms": 468,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Set"
+      },
+      {
+        "confidence": 0.235134,
+        "end_ms": 811,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 499,
+        "text": "it"
+      },
+      {
+        "confidence": 0.82447,
+        "end_ms": 1154,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 842,
+        "text": "up"
+      },
+      {
+        "confidence": 0.891331,
+        "end_ms": 1497,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1185,
+        "text": "on"
+      },
+      {
+        "confidence": 0.475278,
+        "end_ms": 1996,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1528,
+        "text": "my,"
+      },
+      {
+        "confidence": 0.947742,
+        "end_ms": 2495,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2027,
+        "text": "um,"
+      }
+    ]
+  },
+  "[\"slurp_time_1205.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Disable alarm for 3 PM.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.950717,
+        "end_ms": 742,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Disable"
+      },
+      {
+        "confidence": 0.997731,
+        "end_ms": 1293,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 763,
+        "text": "alarm"
+      },
+      {
+        "confidence": 0.999561,
+        "end_ms": 1632,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1314,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999757,
+        "end_ms": 1759,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1653,
+        "text": "3"
+      },
+      {
+        "confidence": 0.986372,
+        "end_ms": 2098,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1780,
+        "text": "PM."
+      }
+    ]
+  },
+  "[\"slurp_time_3153.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Clear my 9 AM alarms",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.979808,
+        "end_ms": 863,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Clear"
+      },
+      {
+        "confidence": 0.988022,
+        "end_ms": 1242,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 897,
+        "text": "my"
+      },
+      {
+        "confidence": 0.998442,
+        "end_ms": 1448,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1276,
+        "text": "9"
+      },
+      {
+        "confidence": 0.317495,
+        "end_ms": 1827,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1482,
+        "text": "AM"
+      },
+      {
+        "confidence": 0.966159,
+        "end_ms": 2896,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1861,
+        "text": "alarms"
+      }
+    ]
+  },
+  "[\"slurp_time_538.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Set an alarm for 1 PM.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.994348,
+        "end_ms": 400,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Set"
+      },
+      {
+        "confidence": 0.999443,
+        "end_ms": 692,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 426,
+        "text": "an"
+      },
+      {
+        "confidence": 0.999955,
+        "end_ms": 1384,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 718,
+        "text": "alarm"
+      },
+      {
+        "confidence": 0.999874,
+        "end_ms": 1810,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1410,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999928,
+        "end_ms": 1969,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1836,
+        "text": "1"
+      },
+      {
+        "confidence": 0.975137,
+        "end_ms": 2395,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1995,
+        "text": "PM."
+      }
+    ]
+  },
   "[\"slurp_tue_2158.wav\", []]": {
     "end_of_turn_confidence": 1.0,
     "transcript": "Weather on Tuesday.",
@@ -1429,6 +2228,84 @@
         "is_final": true,
         "revisions": 0,
         "start_ms": 1077,
+        "text": "Tuesday."
+      }
+    ]
+  },
+  "[\"slurp_tue_5377.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Please check weather on Tuesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.975502,
+        "end_ms": 520,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Please"
+      },
+      {
+        "confidence": 0.997855,
+        "end_ms": 971,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 537,
+        "text": "check"
+      },
+      {
+        "confidence": 0.940987,
+        "end_ms": 1595,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 988,
+        "text": "weather"
+      },
+      {
+        "confidence": 0.999783,
+        "end_ms": 1785,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1612,
+        "text": "on"
+      },
+      {
+        "confidence": 0.994486,
+        "end_ms": 2496,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1802,
+        "text": "Tuesday."
+      }
+    ]
+  },
+  "[\"slurp_tue_7084.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Reminded on Tuesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.8805,
+        "end_ms": 1086,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Reminded"
+      },
+      {
+        "confidence": 0.998652,
+        "end_ms": 1384,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1113,
+        "text": "on"
+      },
+      {
+        "confidence": 0.978742,
+        "end_ms": 2497,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1411,
         "text": "Tuesday."
       }
     ]
@@ -1485,6 +2362,84 @@
         "revisions": 0,
         "start_ms": 1078,
         "text": "Wednesday."
+      }
+    ]
+  },
+  "[\"slurp_wed_6411.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What's the weather next Wednesday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.996538,
+        "end_ms": 545,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What's"
+      },
+      {
+        "confidence": 0.999972,
+        "end_ms": 835,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 563,
+        "text": "the"
+      },
+      {
+        "confidence": 0.999918,
+        "end_ms": 1489,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 853,
+        "text": "weather"
+      },
+      {
+        "confidence": 0.994226,
+        "end_ms": 1870,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1507,
+        "text": "next"
+      },
+      {
+        "confidence": 0.999915,
+        "end_ms": 2797,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1888,
+        "text": "Wednesday?"
+      }
+    ]
+  },
+  "[\"slurp_wed_8343.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Is that Wednesday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.99094,
+        "end_ms": 195,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Is"
+      },
+      {
+        "confidence": 0.95961,
+        "end_ms": 604,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 214,
+        "text": "that"
+      },
+      {
+        "confidence": 0.999249,
+        "end_ms": 1598,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 623,
+        "text": "Wednesday?"
       }
     ]
   }

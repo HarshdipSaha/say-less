@@ -12,3 +12,4 @@ corpus/slurp/
 hf_sayless/
 .impeccable/review/
 *.log
+.impeccable/

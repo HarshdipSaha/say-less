@@ -1,9 +1,9 @@
 {
-  "dataset": "Appointment-Bench (Samsung S23 + iPhone 16 Pro) & SLURP",
+  "dataset": "Appointment-Bench (Samsung S23 + iPhone 16 Pro) Noisy + SLURP",
   "item_count": 26,
   "baseline": {
     "n": 26.0,
-    "words_re_said": 0.7692307692307693,
+    "words_re_said": 0.9230769230769231,
     "turns_to_resolution": 1.1538461538461537,
     "commit_accuracy": 0.9615384615384616,
     "escalation_rate": 0.038461538461538464,
@@ -11,16 +11,16 @@
   },
   "sayless": {
     "n": 26.0,
-    "words_re_said": 0.038461538461538464,
-    "turns_to_resolution": 1.0,
-    "commit_accuracy": 1.0,
-    "escalation_rate": 0.0,
+    "words_re_said": 0.9230769230769231,
+    "turns_to_resolution": 1.1538461538461537,
+    "commit_accuracy": 0.9615384615384616,
+    "escalation_rate": 0.038461538461538464,
     "residual": 0.0
   },
   "records": {
     "baseline": [
       {
-        "item_id": "real_p1_thu",
+        "item_id": "real_p1_thu_noisy",
         "field": "day",
         "truth": "Thursday",
         "committed": "Thursday",
@@ -31,7 +31,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p1_mon",
+        "item_id": "real_p1_mon_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -42,7 +42,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p1_mon2",
+        "item_id": "real_p1_mon2_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -53,7 +53,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p2_thu",
+        "item_id": "real_p2_thu_noisy",
         "field": "day",
         "truth": "Thursday",
         "committed": "Thursday",
@@ -64,7 +64,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p2_mon",
+        "item_id": "real_p2_mon_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -75,7 +75,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p2_mon2",
+        "item_id": "real_p2_mon2_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -86,7 +86,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_tue",
+        "item_id": "real_slurp_tue_noisy",
         "field": "day",
         "truth": "Tuesday",
         "committed": "Tuesday",
@@ -97,7 +97,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_wed",
+        "item_id": "real_slurp_wed_noisy",
         "field": "day",
         "truth": "Wednesday",
         "committed": "Wednesday",
@@ -108,7 +108,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_p2_consult",
+        "item_id": "real_p2_consult_noisy",
         "field": "service",
         "truth": "consultation",
         "committed": "consultation",
@@ -119,7 +119,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_sun1",
+        "item_id": "real_slurp_sun1_noisy",
         "field": "day",
         "truth": "Sunday",
         "committed": "Sunday",
@@ -130,7 +130,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_sun2",
+        "item_id": "real_slurp_sun2_noisy",
         "field": "day",
         "truth": "Sunday",
         "committed": "Sunday",
@@ -141,7 +141,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_mon1",
+        "item_id": "real_slurp_mon1_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -152,7 +152,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_mon2",
+        "item_id": "real_slurp_mon2_noisy",
         "field": "day",
         "truth": "Monday",
         "committed": "Monday",
@@ -163,7 +163,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_tue2",
+        "item_id": "real_slurp_tue2_noisy",
         "field": "day",
         "truth": "Tuesday",
         "committed": "Tuesday",
@@ -174,7 +174,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_tue3",
+        "item_id": "real_slurp_tue3_noisy",
         "field": "day",
         "truth": "Tuesday",
         "committed": "Tuesday",
@@ -185,7 +185,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_wed2",
+        "item_id": "real_slurp_wed2_noisy",
         "field": "day",
         "truth": "Wednesday",
         "committed": "Wednesday",
@@ -196,7 +196,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_wed3",
+        "item_id": "real_slurp_wed3_noisy",
         "field": "day",
         "truth": "Wednesday",
         "committed": "Wednesday",
@@ -207,7 +207,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_thu1",
+        "item_id": "real_slurp_thu1_noisy",
         "field": "day",
         "truth": "Thursday",
         "committed": "Thursday",
@@ -218,7 +218,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_thu2",
+        "item_id": "real_slurp_thu2_noisy",
         "field": "day",
         "truth": "Thursday",
         "committed": "Thursday",
@@ -229,7 +229,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_fri1",
+        "item_id": "real_slurp_fri1_noisy",
         "field": "day",
         "truth": "Friday",
         "committed": "Friday",
@@ -240,7 +240,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_fri2",
+        "item_id": "real_slurp_fri2_noisy",
         "field": "day",
         "truth": "Friday",
         "committed": "Friday",
@@ -251,7 +251,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_sat1",
+        "item_id": "real_slurp_sat1_noisy",
         "field": "day",
         "truth": "Saturday",
         "committed": "Saturday",
@@ -262,306 +262,18 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_sat2",
+        "item_id": "real_slurp_sat2_noisy",
         "field": "day",
         "truth": "Saturday",
-        "committed": "Saturday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_time_onepm",
-        "field": "time",
-        "truth": "one pm",
-        "committed": "one pm",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_time_threepm",
-        "field": "time",
-        "truth": "three pm",
-        "committed": "three pm",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_time_nineam",
-        "field": "time",
-        "truth": "nine am",
         "committed": null,
         "turns": 5,
-        "repair_words": 20,
+        "repair_words": 24,
         "wrong_was_in_set": false,
         "wrong_was_confident": false,
         "escalated": true
-      }
-    ],
-    "sayless": [
-      {
-        "item_id": "real_p1_thu",
-        "field": "day",
-        "truth": "Thursday",
-        "committed": "Thursday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
       },
       {
-        "item_id": "real_p1_mon",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_p1_mon2",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_p2_thu",
-        "field": "day",
-        "truth": "Thursday",
-        "committed": "Thursday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_p2_mon",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_p2_mon2",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_tue",
-        "field": "day",
-        "truth": "Tuesday",
-        "committed": "Tuesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_wed",
-        "field": "day",
-        "truth": "Wednesday",
-        "committed": "Wednesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_p2_consult",
-        "field": "service",
-        "truth": "consultation",
-        "committed": "consultation",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_sun1",
-        "field": "day",
-        "truth": "Sunday",
-        "committed": "Sunday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_sun2",
-        "field": "day",
-        "truth": "Sunday",
-        "committed": "Sunday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_mon1",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_mon2",
-        "field": "day",
-        "truth": "Monday",
-        "committed": "Monday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_tue2",
-        "field": "day",
-        "truth": "Tuesday",
-        "committed": "Tuesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_tue3",
-        "field": "day",
-        "truth": "Tuesday",
-        "committed": "Tuesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_wed2",
-        "field": "day",
-        "truth": "Wednesday",
-        "committed": "Wednesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_wed3",
-        "field": "day",
-        "truth": "Wednesday",
-        "committed": "Wednesday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_thu1",
-        "field": "day",
-        "truth": "Thursday",
-        "committed": "Thursday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_thu2",
-        "field": "day",
-        "truth": "Thursday",
-        "committed": "Thursday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_fri1",
-        "field": "day",
-        "truth": "Friday",
-        "committed": "Friday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_fri2",
-        "field": "day",
-        "truth": "Friday",
-        "committed": "Friday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_sat1",
-        "field": "day",
-        "truth": "Saturday",
-        "committed": "Saturday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_sat2",
-        "field": "day",
-        "truth": "Saturday",
-        "committed": "Saturday",
-        "turns": 1,
-        "repair_words": 0,
-        "wrong_was_in_set": true,
-        "wrong_was_confident": true,
-        "escalated": false
-      },
-      {
-        "item_id": "real_slurp_time_onepm",
+        "item_id": "real_slurp_time_onepm_noisy",
         "field": "time",
         "truth": "one pm",
         "committed": "one pm",
@@ -572,7 +284,7 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_time_threepm",
+        "item_id": "real_slurp_time_threepm_noisy",
         "field": "time",
         "truth": "three pm",
         "committed": "three pm",
@@ -583,12 +295,300 @@
         "escalated": false
       },
       {
-        "item_id": "real_slurp_time_nineam",
+        "item_id": "real_slurp_time_nineam_noisy",
         "field": "time",
         "truth": "nine am",
         "committed": "nine am",
         "turns": 1,
-        "repair_words": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      }
+    ],
+    "sayless": [
+      {
+        "item_id": "real_p1_thu_noisy",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p1_mon2_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_thu_noisy",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_mon2_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_tue_noisy",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_wed_noisy",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_p2_consult_noisy",
+        "field": "service",
+        "truth": "consultation",
+        "committed": "consultation",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sun1_noisy",
+        "field": "day",
+        "truth": "Sunday",
+        "committed": "Sunday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sun2_noisy",
+        "field": "day",
+        "truth": "Sunday",
+        "committed": "Sunday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_mon1_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_mon2_noisy",
+        "field": "day",
+        "truth": "Monday",
+        "committed": "Monday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_tue2_noisy",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_tue3_noisy",
+        "field": "day",
+        "truth": "Tuesday",
+        "committed": "Tuesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_wed2_noisy",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_wed3_noisy",
+        "field": "day",
+        "truth": "Wednesday",
+        "committed": "Wednesday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_thu1_noisy",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_thu2_noisy",
+        "field": "day",
+        "truth": "Thursday",
+        "committed": "Thursday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_fri1_noisy",
+        "field": "day",
+        "truth": "Friday",
+        "committed": "Friday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_fri2_noisy",
+        "field": "day",
+        "truth": "Friday",
+        "committed": "Friday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sat1_noisy",
+        "field": "day",
+        "truth": "Saturday",
+        "committed": "Saturday",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_sat2_noisy",
+        "field": "day",
+        "truth": "Saturday",
+        "committed": null,
+        "turns": 5,
+        "repair_words": 24,
+        "wrong_was_in_set": false,
+        "wrong_was_confident": false,
+        "escalated": true
+      },
+      {
+        "item_id": "real_slurp_time_onepm_noisy",
+        "field": "time",
+        "truth": "one pm",
+        "committed": "one pm",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_time_threepm_noisy",
+        "field": "time",
+        "truth": "three pm",
+        "committed": "three pm",
+        "turns": 1,
+        "repair_words": 0,
+        "wrong_was_in_set": true,
+        "wrong_was_confident": true,
+        "escalated": false
+      },
+      {
+        "item_id": "real_slurp_time_nineam_noisy",
+        "field": "time",
+        "truth": "nine am",
+        "committed": "nine am",
+        "turns": 1,
+        "repair_words": 0,
         "wrong_was_in_set": true,
         "wrong_was_confident": true,
         "escalated": false

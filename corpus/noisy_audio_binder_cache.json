@@ -1,5 +1,25 @@
 {
-  "clear my 9 am alarms": {
+  "6 am alarm for wednesday.": {
+    "bindings": [
+      {
+        "end": 26,
+        "field": "day",
+        "start": 17,
+        "value": "Wednesday"
+      }
+    ]
+  },
+  "another one tuesday.": {
+    "bindings": [
+      {
+        "end": 18,
+        "field": "day",
+        "start": 12,
+        "value": "Tuesday"
+      }
+    ]
+  },
+  "clear my 9 am alarms.": {
     "bindings": []
   },
   "clear my calendar for saturday.": {
@@ -22,12 +42,12 @@
       }
     ]
   },
-  "i'm daniel nolan and my daughter's daniela. we have a delta dental. can we do both on thursday? she gets out of school at 2:30.": {
+  "i'm daniel nolan and my daughter's daniella. we have a delta dental. can we do both on thursday? she gets out of school at 2:30.": {
     "bindings": [
       {
-        "end": 85,
+        "end": 87,
         "field": "day",
-        "start": 77,
+        "start": 79,
         "value": "Thursday"
       }
     ]
@@ -62,28 +82,6 @@
       }
     ]
   },
-  "let's book mine first, the monday morning cleaning.": {
-    "bindings": [
-      {
-        "end": 32,
-        "field": "day",
-        "start": 26,
-        "value": "Monday"
-      },
-      {
-        "end": 40,
-        "field": "time",
-        "start": 33,
-        "value": "morning"
-      },
-      {
-        "end": 49,
-        "field": "service",
-        "start": 41,
-        "value": "cleaning"
-      }
-    ]
-  },
   "monday's fine. i need morning for my cleaning before 11, and danielle can't come in until after 3.": {
     "bindings": [
       {
@@ -97,6 +95,16 @@
         "field": "time",
         "start": 33,
         "value": "morning"
+      }
+    ]
+  },
+  "move the event from monday.": {
+    "bindings": [
+      {
+        "end": 26,
+        "field": "day",
+        "start": 20,
+        "value": "Monday"
       }
     ]
   },
@@ -162,16 +170,6 @@
       }
     ]
   },
-  "remove the event from monday.": {
-    "bindings": [
-      {
-        "end": 26,
-        "field": "day",
-        "start": 20,
-        "value": "Monday"
-      }
-    ]
-  },
   "set an alarm for 1 pm.": {
     "bindings": [
       {
@@ -202,7 +200,7 @@
       }
     ]
   },
-  "tell me what's happening next thursday.": {
+  "tell me what's happened next thursday.": {
     "bindings": [
       {
         "end": 32,
@@ -212,44 +210,30 @@
       }
     ]
   },
-  "the 6 am alarm for wednesday.": {
-    "bindings": [
-      {
-        "end": 29,
-        "field": "day",
-        "start": 20,
-        "value": "Wednesday"
-      }
-    ]
-  },
-  "um, monday's fine. i need morning for my cleaning before 11, and daniela can't come until after 3.": {
+  "uh, monday's fine. i need morning for my cleaning, uh, before 11, and daniela can't come until after 3.": {
     "bindings": [
       {
         "end": 10,
         "field": "day",
-        "start": 4,
+        "start": 3,
         "value": "Monday"
       },
       {
-        "end": 40,
+        "end": 37,
         "field": "time",
-        "start": 33,
+        "start": 30,
         "value": "morning"
+      },
+      {
+        "end": 50,
+        "field": "service",
+        "start": 42,
+        "value": "cleaning"
       }
     ]
   },
   "wait for danielle's consultation. that's dr. barry, b as in boy, not perry. i keep mixing them up.": {
     "bindings": []
-  },
-  "weather on tuesday.": {
-    "bindings": [
-      {
-        "end": 17,
-        "field": "day",
-        "start": 11,
-        "value": "Tuesday"
-      }
-    ]
   },
   "what alarms do i have set for thursday?": {
     "bindings": [
@@ -261,15 +245,8 @@
       }
     ]
   },
-  "what is the date next saturday?": {
-    "bindings": [
-      {
-        "end": 22,
-        "field": "day",
-        "start": 14,
-        "value": "Saturday"
-      }
-    ]
+  "what is the date max out today?": {
+    "bindings": []
   },
   "what's the weather next wednesday?": {
     "bindings": []

@@ -66,7 +66,19 @@ Same agent, run twice on the **same audio** — once with the repair logic on, o
   <img src="docs/assets/results.png" alt="Benchmark: commit accuracy 93% for a typical agent vs 100% for Say Less; one word to fix a mishearing vs the whole sentence; zero calls handed to a human." width="880">
 </div>
 
-The gap is one booking a normal agent gets **silently wrong** — it heard something a letter off the menu, never noticed, and booked it anyway. Say Less caught it and fixed it in a single word. It's measured against real recorded calls (a range of accents and devices, plus the public SLURP corpus) alongside a phone-degraded test set — the [full results and per-call records](eval_results.json) are committed and replay with no API key.
+The gap is one booking a normal agent gets **silently wrong** — it heard something a letter off the menu, never noticed, and booked it anyway. Say Less caught it and fixed it in a single word. That run is 15 synthesized, phone-degraded clips; the [full results and per-call records](eval_results.json) are committed and replay with no API key.
+
+It also runs on **26 real human recordings** — two speakers on different phones outdoors, plus clips from the public [SLURP](https://github.com/pswietojanski/slurp) corpus ([results](eval_results_real.json)):
+
+| 26 real recordings | Baseline | Say Less |
+|---|---|---|
+| Commit accuracy | 96% | **100%** |
+| Words re-said per booking | 0.77 | **0.04** |
+| Escalated to a human | 4% | **0%** |
+
+One item drives that gap, and it's the exact case the design exists for: the recogniser wrote a spoken hour as `9 AM`, which isn't on the menu. The baseline can't see that, so it asked again, and again, and gave up after 5 turns and 20 re-said words. Say Less matched the digits to `nine am`, asked one question, and booked it on a one-word yes.
+
+Mixed with café noise, both arms land at 96% — the one clip either loses had the day word destroyed outright (`next saturday` → `max out today`), which no membership check can recover. That's the honest shape of it: repair pays when a wrong value survives, and can't help when the word is gone.
 
 > **What that's worth.** At a 93% → 100% accuracy gap, roughly **667 wrong bookings per 10,000 calls** get caught before they ship. At a typical **\$7–12** to have a human clean up one wrong booking ([industry figures, 2026](https://www.retellai.com/blog/call-center-outsourcing-costs)), that's **\$4,700–\$8,000 saved per 10,000 calls** — before you count the customer who got the wrong slot and simply never came back.
 

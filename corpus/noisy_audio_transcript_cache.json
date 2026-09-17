@@ -1,0 +1,1880 @@
+{
+  "[\"ab_p1_t01.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I'm Daniel Nolan and my daughter's Daniella. We have a Delta Dental. Can we do both on Thursday? She gets out of school at 2:30.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.995593,
+        "end_ms": 281,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "I'm"
+      },
+      {
+        "confidence": 0.842115,
+        "end_ms": 861,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 299,
+        "text": "Daniel"
+      },
+      {
+        "confidence": 0.994943,
+        "end_ms": 1347,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 879,
+        "text": "Nolan"
+      },
+      {
+        "confidence": 0.893752,
+        "end_ms": 1646,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1365,
+        "text": "and"
+      },
+      {
+        "confidence": 0.999919,
+        "end_ms": 1851,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1664,
+        "text": "my"
+      },
+      {
+        "confidence": 0.92553,
+        "end_ms": 2806,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1869,
+        "text": "daughter's"
+      },
+      {
+        "confidence": 0.887472,
+        "end_ms": 3667,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 2824,
+        "text": "Daniella."
+      },
+      {
+        "confidence": 0.849755,
+        "end_ms": 3872,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3685,
+        "text": "We"
+      },
+      {
+        "confidence": 0.999793,
+        "end_ms": 4265,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3890,
+        "text": "have"
+      },
+      {
+        "confidence": 0.99899,
+        "end_ms": 4376,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4283,
+        "text": "a"
+      },
+      {
+        "confidence": 0.998681,
+        "end_ms": 4862,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4394,
+        "text": "Delta"
+      },
+      {
+        "confidence": 0.913763,
+        "end_ms": 5536,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 4880,
+        "text": "Dental."
+      },
+      {
+        "confidence": 0.996222,
+        "end_ms": 5835,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 5554,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.880558,
+        "end_ms": 6040,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5853,
+        "text": "we"
+      },
+      {
+        "confidence": 0.997447,
+        "end_ms": 6245,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6058,
+        "text": "do"
+      },
+      {
+        "confidence": 0.994348,
+        "end_ms": 6638,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6263,
+        "text": "both"
+      },
+      {
+        "confidence": 0.999278,
+        "end_ms": 6843,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6656,
+        "text": "on"
+      },
+      {
+        "confidence": 0.999342,
+        "end_ms": 7704,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6861,
+        "text": "Thursday?"
+      },
+      {
+        "confidence": 0.999517,
+        "end_ms": 8003,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 7722,
+        "text": "She"
+      },
+      {
+        "confidence": 0.999934,
+        "end_ms": 8396,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8021,
+        "text": "gets"
+      },
+      {
+        "confidence": 0.999946,
+        "end_ms": 8695,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8414,
+        "text": "out"
+      },
+      {
+        "confidence": 0.999423,
+        "end_ms": 8900,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8713,
+        "text": "of"
+      },
+      {
+        "confidence": 0.999983,
+        "end_ms": 9480,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8918,
+        "text": "school"
+      },
+      {
+        "confidence": 0.9997,
+        "end_ms": 9685,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 9498,
+        "text": "at"
+      },
+      {
+        "confidence": 0.998415,
+        "end_ms": 10171,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 9703,
+        "text": "2:30."
+      }
+    ]
+  },
+  "[\"ab_p1_t03.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Uh, Monday's fine. I need morning for my cleaning, uh, before 11, and Daniela can't come until after 3.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.670415,
+        "end_ms": 366,
+        "is_final": true,
+        "revisions": 5,
+        "start_ms": 64,
+        "text": "Uh,"
+      },
+      {
+        "confidence": 0.735845,
+        "end_ms": 1191,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 386,
+        "text": "Monday's"
+      },
+      {
+        "confidence": 0.982346,
+        "end_ms": 1714,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 1211,
+        "text": "fine."
+      },
+      {
+        "confidence": 0.998072,
+        "end_ms": 1834,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 1734,
+        "text": "I"
+      },
+      {
+        "confidence": 0.997502,
+        "end_ms": 2256,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 1854,
+        "text": "need"
+      },
+      {
+        "confidence": 0.974227,
+        "end_ms": 2981,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 2276,
+        "text": "morning"
+      },
+      {
+        "confidence": 0.997952,
+        "end_ms": 3303,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 3001,
+        "text": "for"
+      },
+      {
+        "confidence": 0.998301,
+        "end_ms": 3524,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 3323,
+        "text": "my"
+      },
+      {
+        "confidence": 0.750425,
+        "end_ms": 4450,
+        "is_final": true,
+        "revisions": 3,
+        "start_ms": 3544,
+        "text": "cleaning,"
+      },
+      {
+        "confidence": 0.796564,
+        "end_ms": 4772,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 4470,
+        "text": "uh,"
+      },
+      {
+        "confidence": 0.999645,
+        "end_ms": 5396,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 4792,
+        "text": "before"
+      },
+      {
+        "confidence": 0.971302,
+        "end_ms": 5718,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 5416,
+        "text": "11,"
+      },
+      {
+        "confidence": 0.999215,
+        "end_ms": 6040,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 5738,
+        "text": "and"
+      },
+      {
+        "confidence": 0.921606,
+        "end_ms": 6765,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 6060,
+        "text": "Daniela"
+      },
+      {
+        "confidence": 0.999274,
+        "end_ms": 7288,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 6785,
+        "text": "can't"
+      },
+      {
+        "confidence": 0.999819,
+        "end_ms": 7710,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 7308,
+        "text": "come"
+      },
+      {
+        "confidence": 0.989536,
+        "end_ms": 8233,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 7730,
+        "text": "until"
+      },
+      {
+        "confidence": 0.99868,
+        "end_ms": 8756,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 8253,
+        "text": "after"
+      },
+      {
+        "confidence": 0.996856,
+        "end_ms": 8977,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8776,
+        "text": "3."
+      }
+    ]
+  },
+  "[\"ab_p1_t10.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Perfect. Let's book mine first, the Monday morning cleaning.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.962078,
+        "end_ms": 735,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 64,
+        "text": "Perfect."
+      },
+      {
+        "confidence": 0.999749,
+        "end_ms": 1170,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 751,
+        "text": "Let's"
+      },
+      {
+        "confidence": 0.999691,
+        "end_ms": 1521,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1186,
+        "text": "book"
+      },
+      {
+        "confidence": 0.942867,
+        "end_ms": 1872,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1537,
+        "text": "mine"
+      },
+      {
+        "confidence": 0.98886,
+        "end_ms": 2391,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1888,
+        "text": "first,"
+      },
+      {
+        "confidence": 0.951648,
+        "end_ms": 2658,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2407,
+        "text": "the"
+      },
+      {
+        "confidence": 0.999665,
+        "end_ms": 3177,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 2674,
+        "text": "Monday"
+      },
+      {
+        "confidence": 0.999583,
+        "end_ms": 3780,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3193,
+        "text": "morning"
+      },
+      {
+        "confidence": 0.994629,
+        "end_ms": 4551,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3796,
+        "text": "cleaning."
+      }
+    ]
+  },
+  "[\"ab_p2_t01.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "I'm Daniel Nolan. My daughter is Danielle. We have Delta Dental. Can we do both on Thursday? She gets out of school at 2:30.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.99812,
+        "end_ms": 360,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 128,
+        "text": "I'm"
+      },
+      {
+        "confidence": 0.999905,
+        "end_ms": 839,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 375,
+        "text": "Daniel"
+      },
+      {
+        "confidence": 0.989133,
+        "end_ms": 1318,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 854,
+        "text": "Nolan."
+      },
+      {
+        "confidence": 0.999625,
+        "end_ms": 1487,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1333,
+        "text": "My"
+      },
+      {
+        "confidence": 0.999963,
+        "end_ms": 2121,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1502,
+        "text": "daughter"
+      },
+      {
+        "confidence": 0.986592,
+        "end_ms": 2290,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2136,
+        "text": "is"
+      },
+      {
+        "confidence": 0.999526,
+        "end_ms": 3001,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2305,
+        "text": "Danielle."
+      },
+      {
+        "confidence": 0.999842,
+        "end_ms": 3170,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3016,
+        "text": "We"
+      },
+      {
+        "confidence": 0.999919,
+        "end_ms": 3494,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3185,
+        "text": "have"
+      },
+      {
+        "confidence": 0.993551,
+        "end_ms": 3895,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3509,
+        "text": "Delta"
+      },
+      {
+        "confidence": 0.996427,
+        "end_ms": 4451,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3910,
+        "text": "Dental."
+      },
+      {
+        "confidence": 0.999864,
+        "end_ms": 4698,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4466,
+        "text": "Can"
+      },
+      {
+        "confidence": 0.999951,
+        "end_ms": 4867,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4713,
+        "text": "we"
+      },
+      {
+        "confidence": 0.999897,
+        "end_ms": 5036,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4882,
+        "text": "do"
+      },
+      {
+        "confidence": 0.999918,
+        "end_ms": 5360,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5051,
+        "text": "both"
+      },
+      {
+        "confidence": 0.999856,
+        "end_ms": 5529,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5375,
+        "text": "on"
+      },
+      {
+        "confidence": 0.999895,
+        "end_ms": 6240,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5544,
+        "text": "Thursday?"
+      },
+      {
+        "confidence": 0.999962,
+        "end_ms": 6487,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6255,
+        "text": "She"
+      },
+      {
+        "confidence": 0.999971,
+        "end_ms": 6811,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6502,
+        "text": "gets"
+      },
+      {
+        "confidence": 0.999982,
+        "end_ms": 7058,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6826,
+        "text": "out"
+      },
+      {
+        "confidence": 0.999607,
+        "end_ms": 7227,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 7073,
+        "text": "of"
+      },
+      {
+        "confidence": 0.999968,
+        "end_ms": 7706,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 7242,
+        "text": "school"
+      },
+      {
+        "confidence": 0.999858,
+        "end_ms": 7875,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 7721,
+        "text": "at"
+      },
+      {
+        "confidence": 0.999108,
+        "end_ms": 8276,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 7890,
+        "text": "2:30."
+      }
+    ]
+  },
+  "[\"ab_p2_t03.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Monday's fine. I need morning for my cleaning before 11, and Danielle can't come in until after 3.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.94424,
+        "end_ms": 815,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Monday's"
+      },
+      {
+        "confidence": 0.993335,
+        "end_ms": 1344,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 835,
+        "text": "fine."
+      },
+      {
+        "confidence": 0.999747,
+        "end_ms": 1465,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1364,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999568,
+        "end_ms": 1892,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1485,
+        "text": "need"
+      },
+      {
+        "confidence": 0.987124,
+        "end_ms": 2625,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1912,
+        "text": "morning"
+      },
+      {
+        "confidence": 0.999248,
+        "end_ms": 2950,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2645,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999676,
+        "end_ms": 3173,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2970,
+        "text": "my"
+      },
+      {
+        "confidence": 0.999949,
+        "end_ms": 4008,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 3193,
+        "text": "cleaning"
+      },
+      {
+        "confidence": 0.983798,
+        "end_ms": 4639,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4028,
+        "text": "before"
+      },
+      {
+        "confidence": 0.977012,
+        "end_ms": 4964,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 4659,
+        "text": "11,"
+      },
+      {
+        "confidence": 0.999947,
+        "end_ms": 5289,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4984,
+        "text": "and"
+      },
+      {
+        "confidence": 0.97618,
+        "end_ms": 6124,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5309,
+        "text": "Danielle"
+      },
+      {
+        "confidence": 0.999885,
+        "end_ms": 6653,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6144,
+        "text": "can't"
+      },
+      {
+        "confidence": 0.999895,
+        "end_ms": 7080,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 6673,
+        "text": "come"
+      },
+      {
+        "confidence": 0.528053,
+        "end_ms": 7303,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 7100,
+        "text": "in"
+      },
+      {
+        "confidence": 0.718023,
+        "end_ms": 7832,
+        "is_final": true,
+        "revisions": 2,
+        "start_ms": 7323,
+        "text": "until"
+      },
+      {
+        "confidence": 0.997183,
+        "end_ms": 8361,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 7852,
+        "text": "after"
+      },
+      {
+        "confidence": 0.998214,
+        "end_ms": 8584,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 8381,
+        "text": "3."
+      }
+    ]
+  },
+  "[\"ab_p2_t05.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Wait for Danielle's consultation. That's Dr. Barry, B as in boy, not Perry. I keep mixing them up.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.981864,
+        "end_ms": 279,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Wait"
+      },
+      {
+        "confidence": 0.996478,
+        "end_ms": 501,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 292,
+        "text": "for"
+      },
+      {
+        "confidence": 0.991634,
+        "end_ms": 1211,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 514,
+        "text": "Danielle's"
+      },
+      {
+        "confidence": 0.983886,
+        "end_ms": 2130,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1224,
+        "text": "consultation."
+      },
+      {
+        "confidence": 0.999718,
+        "end_ms": 2561,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2143,
+        "text": "That's"
+      },
+      {
+        "confidence": 0.998528,
+        "end_ms": 2783,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2574,
+        "text": "Dr."
+      },
+      {
+        "confidence": 0.630349,
+        "end_ms": 3214,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2796,
+        "text": "Barry,"
+      },
+      {
+        "confidence": 0.998822,
+        "end_ms": 3296,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3227,
+        "text": "B"
+      },
+      {
+        "confidence": 0.998497,
+        "end_ms": 3448,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3309,
+        "text": "as"
+      },
+      {
+        "confidence": 0.999932,
+        "end_ms": 3600,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3461,
+        "text": "in"
+      },
+      {
+        "confidence": 0.994506,
+        "end_ms": 3892,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 3613,
+        "text": "boy,"
+      },
+      {
+        "confidence": 0.999182,
+        "end_ms": 4114,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3905,
+        "text": "not"
+      },
+      {
+        "confidence": 0.994647,
+        "end_ms": 4545,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4127,
+        "text": "Perry."
+      },
+      {
+        "confidence": 0.999763,
+        "end_ms": 4627,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4558,
+        "text": "I"
+      },
+      {
+        "confidence": 0.99987,
+        "end_ms": 4919,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4640,
+        "text": "keep"
+      },
+      {
+        "confidence": 0.999873,
+        "end_ms": 5350,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 4932,
+        "text": "mixing"
+      },
+      {
+        "confidence": 0.999655,
+        "end_ms": 5642,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5363,
+        "text": "them"
+      },
+      {
+        "confidence": 0.988665,
+        "end_ms": 5864,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 5655,
+        "text": "up."
+      }
+    ]
+  },
+  "[\"ab_p2_t10.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Perfect. Let's book mine first, the Monday morning cleaning.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.944791,
+        "end_ms": 625,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Perfect."
+      },
+      {
+        "confidence": 0.999526,
+        "end_ms": 1031,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 640,
+        "text": "Let's"
+      },
+      {
+        "confidence": 0.999859,
+        "end_ms": 1358,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1046,
+        "text": "book"
+      },
+      {
+        "confidence": 0.999941,
+        "end_ms": 1685,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1373,
+        "text": "mine"
+      },
+      {
+        "confidence": 0.996492,
+        "end_ms": 2169,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1700,
+        "text": "first,"
+      },
+      {
+        "confidence": 0.999128,
+        "end_ms": 2418,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 2184,
+        "text": "the"
+      },
+      {
+        "confidence": 0.99994,
+        "end_ms": 2902,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2433,
+        "text": "Monday"
+      },
+      {
+        "confidence": 0.99836,
+        "end_ms": 3464,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2917,
+        "text": "morning"
+      },
+      {
+        "confidence": 0.990034,
+        "end_ms": 4182,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 3479,
+        "text": "cleaning."
+      }
+    ]
+  },
+  "[\"slurp_fri_6774.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Set an event for Friday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.976706,
+        "end_ms": 317,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Set"
+      },
+      {
+        "confidence": 0.998986,
+        "end_ms": 549,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 338,
+        "text": "an"
+      },
+      {
+        "confidence": 0.99985,
+        "end_ms": 1098,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 570,
+        "text": "event"
+      },
+      {
+        "confidence": 0.999181,
+        "end_ms": 1436,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1119,
+        "text": "for"
+      },
+      {
+        "confidence": 0.993477,
+        "end_ms": 2197,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1457,
+        "text": "Friday."
+      }
+    ]
+  },
+  "[\"slurp_fri_6926.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Is it Friday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.997043,
+        "end_ms": 348,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Is"
+      },
+      {
+        "confidence": 0.999912,
+        "end_ms": 730,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 382,
+        "text": "it"
+      },
+      {
+        "confidence": 0.999717,
+        "end_ms": 1982,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 764,
+        "text": "Friday?"
+      }
+    ]
+  },
+  "[\"slurp_mon_7454.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Remind me before Monday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.982737,
+        "end_ms": 583,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Remind"
+      },
+      {
+        "confidence": 0.999166,
+        "end_ms": 796,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 602,
+        "text": "me"
+      },
+      {
+        "confidence": 0.99946,
+        "end_ms": 1398,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 815,
+        "text": "before"
+      },
+      {
+        "confidence": 0.992011,
+        "end_ms": 2097,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1417,
+        "text": "Monday."
+      }
+    ]
+  },
+  "[\"slurp_mon_7913.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Move the event from Monday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.987844,
+        "end_ms": 336,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Move"
+      },
+      {
+        "confidence": 0.998626,
+        "end_ms": 604,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 352,
+        "text": "the"
+      },
+      {
+        "confidence": 0.991953,
+        "end_ms": 1040,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 620,
+        "text": "event"
+      },
+      {
+        "confidence": 0.61306,
+        "end_ms": 1392,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1056,
+        "text": "from"
+      },
+      {
+        "confidence": 0.940672,
+        "end_ms": 1996,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1408,
+        "text": "Monday."
+      }
+    ]
+  },
+  "[\"slurp_sat_5483.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What is the date max out today?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.991319,
+        "end_ms": 274,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What"
+      },
+      {
+        "confidence": 0.94132,
+        "end_ms": 424,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 287,
+        "text": "is"
+      },
+      {
+        "confidence": 0.989829,
+        "end_ms": 643,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 437,
+        "text": "the"
+      },
+      {
+        "confidence": 0.998374,
+        "end_ms": 930,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 656,
+        "text": "date"
+      },
+      {
+        "confidence": 0.351063,
+        "end_ms": 1149,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 943,
+        "text": "max"
+      },
+      {
+        "confidence": 0.851175,
+        "end_ms": 1368,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1162,
+        "text": "out"
+      },
+      {
+        "confidence": 0.964535,
+        "end_ms": 1793,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1381,
+        "text": "today?"
+      }
+    ]
+  },
+  "[\"slurp_sat_7741.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Clear my calendar for Saturday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.979554,
+        "end_ms": 773,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Clear"
+      },
+      {
+        "confidence": 0.999843,
+        "end_ms": 1112,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 803,
+        "text": "my"
+      },
+      {
+        "confidence": 0.999741,
+        "end_ms": 2379,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1142,
+        "text": "calendar"
+      },
+      {
+        "confidence": 0.999242,
+        "end_ms": 2873,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2409,
+        "text": "for"
+      },
+      {
+        "confidence": 0.996754,
+        "end_ms": 4295,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2903,
+        "text": "Saturday."
+      }
+    ]
+  },
+  "[\"slurp_sun_0327.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Sunday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.840802,
+        "end_ms": 1100,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Sunday."
+      }
+    ]
+  },
+  "[\"slurp_sun_8863.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Please delete all reminders of Sunday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.978209,
+        "end_ms": 547,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Please"
+      },
+      {
+        "confidence": 0.998252,
+        "end_ms": 1112,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 565,
+        "text": "delete"
+      },
+      {
+        "confidence": 0.998444,
+        "end_ms": 1403,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1130,
+        "text": "all"
+      },
+      {
+        "confidence": 0.902717,
+        "end_ms": 2241,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1421,
+        "text": "reminders"
+      },
+      {
+        "confidence": 0.920004,
+        "end_ms": 2441,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2259,
+        "text": "of"
+      },
+      {
+        "confidence": 0.980261,
+        "end_ms": 3097,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 2459,
+        "text": "Sunday."
+      }
+    ]
+  },
+  "[\"slurp_thu_1037.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What alarms do I have set for Thursday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.970528,
+        "end_ms": 311,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What"
+      },
+      {
+        "confidence": 0.999968,
+        "end_ms": 793,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 326,
+        "text": "alarms"
+      },
+      {
+        "confidence": 0.999746,
+        "end_ms": 963,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 808,
+        "text": "do"
+      },
+      {
+        "confidence": 0.999716,
+        "end_ms": 1055,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 978,
+        "text": "I"
+      },
+      {
+        "confidence": 0.999925,
+        "end_ms": 1381,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1070,
+        "text": "have"
+      },
+      {
+        "confidence": 0.999767,
+        "end_ms": 1629,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1396,
+        "text": "set"
+      },
+      {
+        "confidence": 0.999824,
+        "end_ms": 1877,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1644,
+        "text": "for"
+      },
+      {
+        "confidence": 0.997113,
+        "end_ms": 2592,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1892,
+        "text": "Thursday?"
+      }
+    ]
+  },
+  "[\"slurp_thu_8348.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Tell me what's happened next Thursday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.970571,
+        "end_ms": 235,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Tell"
+      },
+      {
+        "confidence": 0.999884,
+        "end_ms": 363,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 246,
+        "text": "me"
+      },
+      {
+        "confidence": 0.992807,
+        "end_ms": 726,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 374,
+        "text": "what's"
+      },
+      {
+        "confidence": 0.809317,
+        "end_ms": 1207,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 737,
+        "text": "happened"
+      },
+      {
+        "confidence": 0.883257,
+        "end_ms": 1453,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1218,
+        "text": "next"
+      },
+      {
+        "confidence": 0.965256,
+        "end_ms": 1993,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1464,
+        "text": "Thursday."
+      }
+    ]
+  },
+  "[\"slurp_time_1205.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Disable alarm for 3 PM.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.958362,
+        "end_ms": 742,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Disable"
+      },
+      {
+        "confidence": 0.998495,
+        "end_ms": 1293,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 763,
+        "text": "alarm"
+      },
+      {
+        "confidence": 0.999601,
+        "end_ms": 1632,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1314,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999906,
+        "end_ms": 1759,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1653,
+        "text": "3"
+      },
+      {
+        "confidence": 0.986479,
+        "end_ms": 2098,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1780,
+        "text": "PM."
+      }
+    ]
+  },
+  "[\"slurp_time_3153.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Clear my 9 AM alarms.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.942694,
+        "end_ms": 814,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Clear"
+      },
+      {
+        "confidence": 0.998374,
+        "end_ms": 1171,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 846,
+        "text": "my"
+      },
+      {
+        "confidence": 0.999986,
+        "end_ms": 1365,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1203,
+        "text": "9"
+      },
+      {
+        "confidence": 0.963101,
+        "end_ms": 1722,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1397,
+        "text": "AM"
+      },
+      {
+        "confidence": 0.995153,
+        "end_ms": 2894,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1754,
+        "text": "alarms."
+      }
+    ]
+  },
+  "[\"slurp_time_538.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Set an alarm for 1 PM.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.992822,
+        "end_ms": 400,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Set"
+      },
+      {
+        "confidence": 0.999171,
+        "end_ms": 692,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 426,
+        "text": "an"
+      },
+      {
+        "confidence": 0.999961,
+        "end_ms": 1384,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 718,
+        "text": "alarm"
+      },
+      {
+        "confidence": 0.999858,
+        "end_ms": 1810,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1410,
+        "text": "for"
+      },
+      {
+        "confidence": 0.999934,
+        "end_ms": 1969,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1836,
+        "text": "1"
+      },
+      {
+        "confidence": 0.979787,
+        "end_ms": 2395,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1995,
+        "text": "PM."
+      }
+    ]
+  },
+  "[\"slurp_tue_2158.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Another one Tuesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.733639,
+        "end_ms": 760,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Another"
+      },
+      {
+        "confidence": 0.98677,
+        "end_ms": 1107,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 781,
+        "text": "one"
+      },
+      {
+        "confidence": 0.953653,
+        "end_ms": 1997,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1128,
+        "text": "Tuesday."
+      }
+    ]
+  },
+  "[\"slurp_tue_5377.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Please check weather on Tuesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.986892,
+        "end_ms": 520,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Please"
+      },
+      {
+        "confidence": 0.996584,
+        "end_ms": 971,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 537,
+        "text": "check"
+      },
+      {
+        "confidence": 0.951723,
+        "end_ms": 1595,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 988,
+        "text": "weather"
+      },
+      {
+        "confidence": 0.999624,
+        "end_ms": 1785,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1612,
+        "text": "on"
+      },
+      {
+        "confidence": 0.992152,
+        "end_ms": 2496,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1802,
+        "text": "Tuesday."
+      }
+    ]
+  },
+  "[\"slurp_tue_7084.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Reminded on Tuesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.916818,
+        "end_ms": 1086,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "Reminded"
+      },
+      {
+        "confidence": 0.998828,
+        "end_ms": 1384,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1113,
+        "text": "on"
+      },
+      {
+        "confidence": 0.979149,
+        "end_ms": 2497,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1411,
+        "text": "Tuesday."
+      }
+    ]
+  },
+  "[\"slurp_wed_0895.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "6 AM alarm for Wednesday.",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.613822,
+        "end_ms": 82,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 0,
+        "text": "6"
+      },
+      {
+        "confidence": 0.939208,
+        "end_ms": 263,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 98,
+        "text": "AM"
+      },
+      {
+        "confidence": 0.997925,
+        "end_ms": 691,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 279,
+        "text": "alarm"
+      },
+      {
+        "confidence": 0.995768,
+        "end_ms": 954,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 707,
+        "text": "for"
+      },
+      {
+        "confidence": 0.995263,
+        "end_ms": 1795,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 970,
+        "text": "Wednesday."
+      }
+    ]
+  },
+  "[\"slurp_wed_6411.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "What's the weather next Wednesday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.995563,
+        "end_ms": 545,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "What's"
+      },
+      {
+        "confidence": 0.999948,
+        "end_ms": 835,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 563,
+        "text": "the"
+      },
+      {
+        "confidence": 0.999927,
+        "end_ms": 1489,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 853,
+        "text": "weather"
+      },
+      {
+        "confidence": 0.991944,
+        "end_ms": 1870,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 1507,
+        "text": "next"
+      },
+      {
+        "confidence": 0.999878,
+        "end_ms": 2797,
+        "is_final": true,
+        "revisions": 1,
+        "start_ms": 1888,
+        "text": "Wednesday?"
+      }
+    ]
+  },
+  "[\"slurp_wed_8343.wav\", []]": {
+    "end_of_turn_confidence": 1.0,
+    "transcript": "Is that Wednesday?",
+    "turn_order": 0,
+    "words": [
+      {
+        "confidence": 0.960643,
+        "end_ms": 195,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 0,
+        "text": "Is"
+      },
+      {
+        "confidence": 0.984309,
+        "end_ms": 604,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 214,
+        "text": "that"
+      },
+      {
+        "confidence": 0.999243,
+        "end_ms": 1598,
+        "is_final": true,
+        "revisions": 0,
+        "start_ms": 623,
+        "text": "Wednesday?"
+      }
+    ]
+  }
+}

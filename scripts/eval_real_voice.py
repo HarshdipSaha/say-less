@@ -86,14 +86,6 @@ REAL_MANIFEST = [
         "answer": ROOT / "corpus" / "audio" / "day_02_ans.wav"
     },
     {
-        "id": "real_p2_con",
-        "field": "service",
-        "truth": "consultation",
-        "sentence": "Wait for Danielle's consultation that's Dr Barry?",
-        "audio": ROOT / "corpus" / "real_audio" / "ab_p2_t05.wav",
-        "answer": ROOT / "corpus" / "audio" / "svc_01_ans.wav"
-    },
-    {
         "id": "real_p2_mon2",
         "field": "day",
         "truth": "Monday",
@@ -118,13 +110,192 @@ REAL_MANIFEST = [
         "audio": ROOT / "corpus" / "real_audio" / "slurp_wed_0895.wav",
         "answer": ROOT / "corpus" / "audio" / "day_03_ans.wav"
     },
+    # 4. Benchmark expansion (2026-09-17): the 4 real ab_p1/ab_p2 takes not
+    # already in the manifest (t05, t08) turned out NOT to be day-field
+    # content once actually transcribed -- t08 for both speakers ("Last name
+    # for both is Nolan...") names a surname outside this project's own
+    # 319-name corpus/surnames.txt, which would test "value can never resolve
+    # in-set" rather than the mishearing-recovery this manifest otherwise
+    # measures, so it's left out. ab_p1_t05 was tried and dropped too: a fresh
+    # live transcribe_file() call returned only "keep mixing them up." --
+    # transcribe_file() returns just the LAST finalised turn, and this
+    # specific recording's mid-sentence pause made AssemblyAI's turn detector
+    # split it, silently losing the earlier content. That's a real property of
+    # the offline one-shot replay helper the eval scripts use, not of the live
+    # per-turn path (session.py's BookingSession.handle_turn processes every
+    # finalised Turn as it arrives), so it wasn't treated as a src/sayless bug
+    # to fix -- see docs/STATUS.md's decision log. Only ab_p2_t05 was usable,
+    # and it happens to name a real *service* ("consultation"), so it's the
+    # manifest's only non-day/time real item. It needed its own answer clip:
+    # corpus/audio's five svc_XX_ans.wav files are beard trim/haircut/hot
+    # towel shave/head massage/kids cut -- none say "consultation" -- so
+    # corpus/audio/svc_consultation_ans.wav was synthesized the same way
+    # (Windows SAPI "David", narrowband round-trip + 14-20dB noise) rather
+    # than reusing a mismatched clip.
     {
-        "id": "real_slurp_sat",
+        "id": "real_p2_consult",
+        "field": "service",
+        "truth": "consultation",
+        "sentence": "Wait for Danielle's consultation.",
+        "audio": ROOT / "corpus" / "real_audio" / "ab_p2_t05.wav",
+        "answer": ROOT / "corpus" / "audio" / "svc_consultation_ans.wav"
+    },
+    # 5. SLURP-sourced day/time clips (2026-09-17), pulled individually via the
+    # qmeeus/slurp Hugging Face mirror's datasets-server /rows endpoint (no
+    # bulk download): candidates were selected offline from the corpus/slurp
+    # annotation clone (wer 0.0 recordings, short single-entity sentences),
+    # then each row's exact offset was computed from local jsonl order
+    # (verified against the two pre-existing SLURP items before trusting it)
+    # so no flaky /search or /filter call was needed. Two per day for all
+    # seven days, plus three `time` items -- the first field besides `day`
+    # this real-voice manifest has ever covered. corpus/audio had no Saturday
+    # or Sunday answer clip and no `time` answer clips at all, so
+    # day_saturday_ans.wav, day_sunday_ans.wav and the three time_*_ans.wav
+    # files were synthesized the same way as svc_consultation_ans.wav above.
+    #
+    # Four other downloaded candidates were transcribed and discarded, not
+    # used: two came back from the real API as unrelated garbled text with no
+    # day/time word in it at all (a genuine real-audio clarity limit, not a
+    # pipeline bug), and one ("is my calendar free for thursday") was heard by
+    # AssemblyAI as "Tuesday" with 1.0 confidence -- a real mishearing, but
+    # ambiguous enough (own-recording vs. genuine ASR error) that it was
+    # swapped for a cleaner Thursday clip rather than risk a misleading
+    # ground-truth label. See docs/STATUS.md's decision log.
+    {
+        "id": "real_slurp_sun1",
+        "field": "day",
+        "truth": "Sunday",
+        "sentence": "sunday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_sun_0327.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_sunday_ans.wav"
+    },
+    {
+        "id": "real_slurp_sun2",
+        "field": "day",
+        "truth": "Sunday",
+        "sentence": "please delete all reminder of sunday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_sun_8863.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_sunday_ans.wav"
+    },
+    {
+        "id": "real_slurp_mon1",
+        "field": "day",
+        "truth": "Monday",
+        "sentence": "remind me before monday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_mon_7454.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_02_ans.wav"
+    },
+    {
+        "id": "real_slurp_mon2",
+        "field": "day",
+        "truth": "Monday",
+        "sentence": "remove the event from monday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_mon_7913.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_02_ans.wav"
+    },
+    {
+        "id": "real_slurp_tue2",
+        "field": "day",
+        "truth": "Tuesday",
+        "sentence": "remind it on tuesday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_tue_7084.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_01_ans.wav"
+    },
+    {
+        "id": "real_slurp_tue3",
+        "field": "day",
+        "truth": "Tuesday",
+        "sentence": "please check weather on tuesday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_tue_5377.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_01_ans.wav"
+    },
+    {
+        "id": "real_slurp_wed2",
+        "field": "day",
+        "truth": "Wednesday",
+        "sentence": "is it wednesday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_wed_8343.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_03_ans.wav"
+    },
+    {
+        "id": "real_slurp_wed3",
+        "field": "day",
+        "truth": "Wednesday",
+        "sentence": "what's the weather next wednesday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_wed_6411.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_03_ans.wav"
+    },
+    {
+        "id": "real_slurp_thu1",
+        "field": "day",
+        "truth": "Thursday",
+        "sentence": "what alarms do i have set for thursday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_thu_1037.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_04_ans.wav"
+    },
+    {
+        "id": "real_slurp_thu2",
+        "field": "day",
+        "truth": "Thursday",
+        "sentence": "tell me what's happening next thursday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_thu_8348.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_04_ans.wav"
+    },
+    {
+        "id": "real_slurp_fri1",
+        "field": "day",
+        "truth": "Friday",
+        "sentence": "is it friday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_fri_6926.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_05_ans.wav"
+    },
+    {
+        "id": "real_slurp_fri2",
+        "field": "day",
+        "truth": "Friday",
+        "sentence": "set an event for friday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_fri_6774.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_05_ans.wav"
+    },
+    {
+        "id": "real_slurp_sat1",
         "field": "day",
         "truth": "Saturday",
-        "sentence": "set a reminder for next saturday go to the library at five o'clock",
-        "audio": ROOT / "corpus" / "real_audio" / "slurp_sat_8447.wav",
-        "answer": ROOT / "corpus" / "audio" / "day_04_ans.wav"
+        "sentence": "clear my calendar for saturday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_sat_7741.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_saturday_ans.wav"
+    },
+    {
+        "id": "real_slurp_sat2",
+        "field": "day",
+        "truth": "Saturday",
+        "sentence": "what is the date next saturday",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_sat_5483.wav",
+        "answer": ROOT / "corpus" / "audio" / "day_saturday_ans.wav"
+    },
+    {
+        "id": "real_slurp_time_onepm",
+        "field": "time",
+        "truth": "one pm",
+        "sentence": "set an alarm for one pm",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_time_538.wav",
+        "answer": ROOT / "corpus" / "audio" / "time_one_pm_ans.wav"
+    },
+    {
+        "id": "real_slurp_time_threepm",
+        "field": "time",
+        "truth": "three pm",
+        "sentence": "disable alarm for three pm",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_time_1205.wav",
+        "answer": ROOT / "corpus" / "audio" / "time_three_pm_ans.wav"
+    },
+    {
+        "id": "real_slurp_time_nineam",
+        "field": "time",
+        "truth": "nine am",
+        "sentence": "clear my nine am alarms",
+        "audio": ROOT / "corpus" / "real_audio" / "slurp_time_3153.wav",
+        "answer": ROOT / "corpus" / "audio" / "time_nine_am_ans.wav"
     }
 ]
 
