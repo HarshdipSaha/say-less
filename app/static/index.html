@@ -6,26 +6,47 @@
   <title>Say Less</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <h1>Say Less</h1>
-    <p>The agent asks about the word, not the sentence.</p>
-  </header>
-  <main>
-    <section>
-      <button id="ptt">Hold to talk</button>
-      <p id="agent" aria-live="polite"></p>
-      <p id="move"></p>
-    </section>
-    <section>
-      <h2>What it heard</h2>
-      <div id="words"></div>
-      <h2>Allowed values</h2>
-      <div id="schema"></div>
-      <h2>Booking</h2>
-      <pre id="values">{}</pre>
-    </section>
-  </main>
+<body data-state="idle">
+  <div class="scene">
+    <header class="masthead">
+      <h1 class="wordmark">Say Less</h1>
+      <p class="tagline">The agent asks about the word, not the sentence.</p>
+      <p class="trust">Live audio, real repair, no script.</p>
+    </header>
+
+    <main class="board">
+      <section class="control-row">
+        <div class="key-col">
+          <button id="key" class="key" type="button" aria-label="Hold to talk to the booking agent"></button>
+          <span class="key-label">Hold to talk</span>
+          <p class="key-hint">or press and hold <kbd>Space</kbd></p>
+          <p id="status" class="status-text" aria-live="polite"></p>
+        </div>
+
+        <div class="ticker-wrap">
+          <h2 class="panel-label">The ticker</h2>
+          <div id="ticker" class="ticker" aria-live="polite">
+            <p class="ticker-empty">No signal yet.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="readback-slip" id="readback" hidden>
+        <div class="slip-head">
+          <h2 class="panel-label slip-label">Readback</h2>
+          <span id="move" class="move-badge"></span>
+        </div>
+        <p id="agent-text" class="slip-text" aria-live="polite"></p>
+        <dl class="fields" id="fields"></dl>
+        <p class="raw-feed"><span>raw</span><code id="raw"></code></p>
+      </section>
+
+      <section class="ledger">
+        <h2 class="panel-label">The ledger</h2>
+        <div id="schema" class="ledger-grid"></div>
+      </section>
+    </main>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
