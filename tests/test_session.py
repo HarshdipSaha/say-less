@@ -141,3 +141,54 @@ def test_plan_after_rejection_never_names_a_candidate():
     assert move.kind is MoveKind.RESTRICTED_REQUEST
     assert move.candidates == ()
     assert "day" in move.utterance.lower()
+
+
+def test_a_bare_answer_to_the_field_just_asked_is_taken_without_the_binder(monkeypatch):
+    """"And the last name?" -> "It's Bennett." must bind. The LLM binder was
+    observed returning nothing for a one-word reply with no sentence context
+    (live, 2026-09-17), so the session takes a reply that reduces to a value
+    from the asked field's set directly, the same way _answer_to_pending does."""
+    import sayless.session as sess
+    monkeypatch.setattr(sess, "bind", lambda *a, **k: pytest.fail("binder must not be called"))
+    s = BookingSession()
+    s.values.update({"service": "haircut", "day": "Tuesday", "time": "two pm"})
+    s.asked = "surname"
+    reply, _ = s.handle_turn(turn([("It's", 1.0), ("Bennett.", 0.97)], transcript="It's Bennett."))
+    assert s.values["surname"] == "Bennett"
+    assert reply.endswith("correct?")           # moved straight on to the readback
+
+
+def test_a_bare_answer_to_a_category_question_is_taken_directly(monkeypatch):
+    """"Which service?" (a restricted request, no candidate on the table) ->
+    "a haircut please" resolves without a second binder round trip."""
+    import sayless.session as sess
+    from sayless.moves import restricted_request
+    monkeypatch.setattr(sess, "bind", lambda *a, **k: pytest.fail("binder must not be called"))
+    s = BookingSession()
+    s.pending = restricted_request("service", "service")
+    reply, _ = s.handle_turn(turn([("a", 1.0), ("haircut", 0.93), ("please", 1.0)],
+                                  transcript="a haircut please"))
+    assert s.values["service"] == "haircut" and s.pending is None
+    assert reply == "And the day?"
+
+
+def test_a_suspect_turn_does_not_take_the_bare_answer_shortcut(monkeypatch):
+    """The shortcut shares _commit_clean's turn-level guard: a turn the planner
+    would treat as trouble goes through the full bind/plan path instead."""
+    import sayless.session as sess
+    calls = []
+    monkeypatch.setattr(sess, "bind", lambda *a, **k: calls.append(1) or [])
+    s = BookingSession()
+    s.asked = "day"
+    s.handle_turn(turn([("Friday", 0.9)], eot=0.10, transcript="Friday"))
+    assert calls and "day" not in s.values
+
+
+def test_the_asked_field_is_recorded_by_advance():
+    s = BookingSession()
+    s.values.update({"service": "haircut"})
+    reply, _ = s._advance()
+    assert reply == "And the day?" and s.asked == "day"
+    s.values.update({"day": "Tuesday", "time": "two pm", "surname": "Bennett"})
+    s._advance()
+    assert s.asked is None and s.awaiting_readback

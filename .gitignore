@@ -8,3 +8,7 @@ corpus/audio/_raw/
 corpus/demo_binder_cache.json
 gate/out/
 .playwright-mcp/
+corpus/slurp/
+hf_sayless/
+.impeccable/review/
+*.log

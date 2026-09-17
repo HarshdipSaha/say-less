@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)](pyproject.toml)
 [![AssemblyAI](https://img.shields.io/badge/AssemblyAI-Universal--Streaming-6C5CE7?style=flat-square)](https://www.assemblyai.com)
 [![FastAPI](https://img.shields.io/badge/FastAPI-realtime-009688?style=flat-square&logo=fastapi&logoColor=white)](app/server.py)
-[![Tests](https://img.shields.io/badge/tests-89%20passing-3fb950?style=flat-square)](tests/)
+[![Tests](https://img.shields.io/badge/tests-97%20passing-3fb950?style=flat-square)](tests/)
 [![Hackathon](https://img.shields.io/badge/AssemblyAI-Voice%20Agent%20Hackathon-0d1117?style=flat-square)](https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon)
 
 **[How it works](#how-it-works)** · **[The benchmark](#the-benchmark)** · **[Try it](#try-it)**
@@ -72,15 +72,13 @@ The gap is one booking a normal agent gets **silently wrong** — it heard somet
 
 ## Try it
 
-[Live Link](https://huggingface.co/spaces/Godlyharsh/say-less)
-
 Reproduce every number above with **no API key** — the results replay from committed recordings:
 
 ```bash
 python -m venv .venv && source .venv/Scripts/activate   # .venv\Scripts\activate on Windows cmd
 pip install -e ".[dev]"
 
-pytest -v                              # 89 tests — no network, no key
+pytest -v                              # 97 tests — no network, no key
 python -m evalharness.run --offline    # replays the recordings, reprints the benchmark
 ```
 
@@ -90,6 +88,23 @@ Want the live, talk-to-it demo? Add an AssemblyAI key and run the server:
 cp .env.example .env    # paste your ASSEMBLYAI_API_KEY
 uvicorn app.server:app --reload         # open http://localhost:8000 and hold to talk
 ```
+
+Or in Docker:
+
+```bash
+docker build -t say-less .
+docker run -p 8000:8000 -e ASSEMBLYAI_API_KEY=your_key say-less
+```
+
+## Deploy
+
+The live demo streams microphone audio over one long-lived WebSocket for the whole call, so it needs a host that runs a persistent server process.
+
+- **Any container host** (Render, Fly.io, Koyeb, Railway, Cloud Run): use the `Dockerfile`. Set `ASSEMBLYAI_API_KEY`; the server listens on `$PORT` (default 8000).
+- **Render**, without Docker: `render.yaml` is a ready blueprint.
+- **Vercel** builds and serves the page (`vercel.json`, `api/index.py`), but its serverless functions do not carry this app's WebSocket reliably. In testing, audio reached the server and the transcript came back, yet the agent's reply never did. Use Vercel for a static preview only.
+
+For recording a demo, `docs/submission/live-demo-script.md` has exact lines, checked against the live pipeline.
 
 ## Built with
 

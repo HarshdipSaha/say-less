@@ -77,6 +77,7 @@ class BookingSession:
     cache: BinderCache = dc_field(
         default_factory=lambda: BinderCache(DEMO_BINDER_CACHE))
     pending: RepairMove | None = None
+    asked: str | None = None        # the field the last "And the X?" asked for
     awaiting_readback: bool = False
     done: bool = False
 
@@ -97,6 +98,7 @@ class BookingSession:
                 self.done = True
                 return "Booked. See you then.", []
             self.values.clear()
+            self.asked = "service"
             return "Let's try that again. Which service?", prospective_terms(
                 ["service"], self.schema)
 
@@ -104,6 +106,21 @@ class BookingSession:
             answered = self._answer_to_pending(said)
             if answered is not None:
                 return answered
+
+        # A bare answer to the question just asked ("Bennett", "it's Bennett",
+        # "a haircut please") is taken directly when the whole utterance
+        # reduces to one value from that field's set. Without this the LLM
+        # binder has to infer the field from a one-word reply with no sentence
+        # context, which it did not reliably do in live testing ("It's
+        # Bennett." bound nothing). Same turn-level guard as _commit_clean.
+        target = self.pending.field if self.pending and self.pending.field else self.asked
+        if (target and target not in self.values
+                and turn.end_of_turn_confidence >= TURN_TROUBLE_THRESHOLD):
+            named = named_value(said, self.schema[target], RESERVED)
+            if named:
+                self.values[target] = named
+                self.pending = None
+                return self._advance()
 
         fields = bind(turn.transcript, [w.text for w in turn.words],
                       self.schema, self.cache)
@@ -188,8 +205,10 @@ class BookingSession:
         missing = self.expected_fields()
         if missing:
             nxt = missing[0]
+            self.asked = nxt
             return (f"And the {self.schema[nxt].label}?",
                     prospective_terms([nxt] + missing[1:], self.schema))
+        self.asked = None
         summary = (f"{self.values['service']} on {self.values['day']} at "
                    f"{self.values['time']} for {self.values['surname']}")
         self.awaiting_readback = True

@@ -1,5 +1,5 @@
 from sayless.matcher import STRONG, match, phonetic_score
-from sayless.schema import DAYS, load_surnames
+from sayless.schema import DAYS, TIMES, load_surnames
 
 
 def test_exact_member_is_in_set_and_ranks_first():
@@ -35,3 +35,17 @@ def test_multi_word_value_matches():
 def test_score_is_bounded():
     assert 0.0 <= phonetic_score("a", "zzzz") <= 1.0
     assert phonetic_score("Tuesday", "Tuesday") > 0.95
+
+
+def test_digit_rendered_hour_matches_the_spelled_out_value():
+    """Real bug found sourcing SLURP time-of-day clips (2026-09-17):
+    AssemblyAI's ITN renders a spoken hour as a digit ("1 PM"), but TIMES is
+    spelled out. Before normalisation this didn't just miss the in-set match --
+    it confidently offered the WRONG hour: phonetic_score("1 pm", "two pm")
+    (0.74) beat phonetic_score("1 pm", "one pm") (0.6467), both past STRONG."""
+    for heard, truth in [("1 pm", "one pm"), ("1 PM.", "one pm"),
+                         ("3 pm", "three pm"), ("9 am", "nine am"),
+                         ("12 pm", "twelve noon"), ("12 noon", "twelve noon")]:
+        r = match(heard, TIMES)
+        assert r.in_set is True, f"{heard!r} should land in-set as {truth!r}"
+        assert r.candidates[0][0] == truth

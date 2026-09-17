@@ -76,8 +76,14 @@ def client() -> OpenAI:
 # for its field. The same clean-only failure was independently observed for
 # "service" ("I would like a beard trim" and "just a haircut today thanks"
 # both returned empty bindings with descriptions alone), so it gets the same
-# pair. "surname" and "time" were not observed to need this in testing and are
-# left without examples rather than adding untested prompt surface area.
+# pair.
+#
+# Adding more examples was tried on 2026-09-17 and abandoned: each new one
+# fixed its target sentence and silently broke another (a question-form day
+# example plus a time example fixed "what's the weather next Wednesday" and
+# "clear my 9 AM alarms" but made "Wait for Danielle's consultation..." bind
+# nothing). Empty bindings on clearly-stated values are handled by
+# lexical_fallback() below instead, which is deterministic.
 _BINDER_EXAMPLES = (
     'Examples:\n'
     'utterance "Lets book Friday please" -> '
@@ -91,6 +97,44 @@ _BINDER_EXAMPLES = (
     '{"bindings":[{"field":"service","value":"hairkut","start":11,"end":18}]} '
     '(garbled but still the service slot -- copy it exactly)'
 )
+
+# The binder model sometimes returns no bindings at all for a sentence that
+# states an allowed value outright ("Wait for Danielle's consultation...",
+# "Clear my 9 AM alarms"). When that happens, fall back to an exact,
+# word-bounded scan for allowed values. It only ever reports a value that is
+# already in the field's set, word for word, so it can neither invent nor
+# correct anything -- a garbled value still has to come from the model.
+# Surname is excluded: common surnames are ordinary English words ("Long",
+# "Green"), and that field is the consequential one.
+LEXICAL_FALLBACK_FIELDS = ("day", "time", "service")
+
+
+def _norm_token(token: str) -> str:
+    from .matcher import _normalize_numerals
+    return _normalize_numerals(token.strip(".,?!;:'\"").lower())
+
+
+def lexical_fallback(words: list[str],
+                     schema: dict[str, FieldSpec]) -> list[BoundField]:
+    tokens = [_norm_token(w) for w in words]
+    out: list[BoundField] = []
+    for field in LEXICAL_FALLBACK_FIELDS:
+        spec = schema.get(field)
+        if spec is None:
+            continue
+        found = None
+        for value in sorted(spec.values, key=lambda v: -len(v.split())):
+            target = value.lower().split()
+            n = len(target)
+            for i in range(len(tokens) - n + 1):
+                if tokens[i:i + n] == target:
+                    found = BoundField(field, value, tuple(range(i, i + n)))
+                    break
+            if found:
+                break
+        if found:
+            out.append(found)
+    return out
 
 
 def _prompt(transcript: str, schema: dict[str, FieldSpec]) -> str:
@@ -160,4 +204,5 @@ def bind(transcript: str, words: list[str], schema: dict[str, FieldSpec],
         if cache:
             cache.put(transcript, payload)
             cache.save()           # incremental, so a late crash costs one item
-    return parse_binder_response(payload, transcript, words, schema)
+    fields = parse_binder_response(payload, transcript, words, schema)
+    return fields or lexical_fallback(words, schema)

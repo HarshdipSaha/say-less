@@ -56,7 +56,9 @@ async def _pump_turns(client: WebSocket, session: BookingSession,
             "words": [{"text": w.text, "confidence": round(w.confidence, 3),
                        "revisions": w.revisions} for w in turn.words],
         })
-        reply, terms = session.handle_turn(turn)
+        # handle_turn makes a synchronous LLM Gateway call; run it off the loop so
+        # incoming audio and the upstream keepalive keep flowing while it waits.
+        reply, terms = await asyncio.to_thread(session.handle_turn, turn)
         if terms:
             await upstream.update_keyterms(terms)
         await client.send_json({
