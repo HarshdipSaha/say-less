@@ -10,8 +10,9 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-realtime-009688?style=flat-square&logo=fastapi&logoColor=white)](app/server.py)
 [![Tests](https://img.shields.io/badge/tests-97%20passing-3fb950?style=flat-square)](tests/)
 [![Hackathon](https://img.shields.io/badge/AssemblyAI-Voice%20Agent%20Hackathon-0d1117?style=flat-square)](https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://say-less-xh3x.onrender.com)
 
-**[How it works](#how-it-works)** · **[The benchmark](#the-benchmark)** · **[Try it](#try-it)**
+**[🚀 Live Demo](https://say-less-xh3x.onrender.com)** · **[How it works](#how-it-works)** · **[The benchmark](#the-benchmark)** · **[Try it](#try-it)**
 
 </div>
 
@@ -84,6 +85,16 @@ Mixed with café noise, both arms land at 96% — the one clip either loses had 
 
 ## Try it
 
+### Live demo
+
+The demo is deployed and live at:
+
+👉 **[https://say-less-xh3x.onrender.com](https://say-less-xh3x.onrender.com)**
+
+> *Hosted on Render's free tier. Hold the push-to-talk button and speak. If the instance was idle, please allow 30–60 seconds for the initial wake-up.*
+
+### Reproduce benchmarks locally
+
 Reproduce every number above with **no API key** — the results replay from committed recordings:
 
 ```bash
@@ -94,7 +105,7 @@ pytest -v                              # 97 tests — no network, no key
 python -m evalharness.run --offline    # replays the recordings, reprints the benchmark
 ```
 
-Want the live, talk-to-it demo? Add an AssemblyAI key and run the server:
+Want to run the live demo locally? Add an AssemblyAI key and run the server:
 
 ```bash
 cp .env.example .env    # paste your ASSEMBLYAI_API_KEY
@@ -112,6 +123,7 @@ docker run -p 8000:8000 -e ASSEMBLYAI_API_KEY=your_key say-less
 
 The live demo streams microphone audio over one long-lived WebSocket for the whole call, so it needs a host that runs a persistent server process.
 
+- **Render (Live Deployment):** Deployed and active at **[https://say-less-xh3x.onrender.com](https://say-less-xh3x.onrender.com)** via `render.yaml` and `Dockerfile`.
 - **Any container host** (Render, Fly.io, Koyeb, Railway, Cloud Run): use the `Dockerfile`. Set `ASSEMBLYAI_API_KEY`; the server listens on `$PORT` (default 8000).
 - **Render**, without Docker: `render.yaml` is a ready blueprint.
 - **Vercel** builds and serves the page (`vercel.json`, `api/index.py`), but its serverless functions do not carry this app's WebSocket reliably. In testing, audio reached the server and the transcript came back, yet the agent's reply never did. Use Vercel for a static preview only.
@@ -122,7 +134,7 @@ For recording a demo, `docs/submission/live-demo-script.md` has exact lines, che
 
 **AssemblyAI Universal-Streaming** (real-time speech-to-text with per-word confidence) · **AssemblyAI LLM Gateway** · **FastAPI** · a plain browser push-to-talk front end. Built for the **[AssemblyAI Voice Agent Hackathon](https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon)**.
 
-Deeper reading: [the spec](docs/SPEC.md) · [live status & decision log](docs/STATUS.md) · [why it's designed this way](docs/council/verdict.md) · [the research behind it](docs/research-3w-scan.md)
+Deeper reading: **[live demo](https://say-less-xh3x.onrender.com)** · [the spec](docs/SPEC.md) · [live status & decision log](docs/STATUS.md) · [why it's designed this way](docs/council/verdict.md) · [the research behind it](docs/research-3w-scan.md)
 
 <div align="center">
 <br>
