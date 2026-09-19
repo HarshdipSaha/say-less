@@ -13,3 +13,7 @@ hf_sayless/
 .impeccable/review/
 *.log
 .impeccable/
+docs/video/raw/
+docs/video/clips/
+docs/video/caller_audio/
+docs/video/tts/

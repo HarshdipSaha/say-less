@@ -1,0 +1,33 @@
+{
+  "video": "H:\\augsepthacks\\assembly-ai hack\\docs\\video\\raw\\e888f82dddb422c04ed9b2e1240e7d9a.webm",
+  "scenes": [
+    {
+      "name": "S0_intro",
+      "t": 2.849
+    },
+    {
+      "name": "S1_interface",
+      "t": 12.081
+    },
+    {
+      "name": "S2_repair",
+      "t": 20.029
+    },
+    {
+      "name": "S3_turns",
+      "t": 55.515
+    },
+    {
+      "name": "S4_booked",
+      "t": 126.645
+    },
+    {
+      "name": "S5_outro",
+      "t": 163.863
+    },
+    {
+      "name": "END",
+      "t": 171.793
+    }
+  ]
+}

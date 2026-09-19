@@ -1,0 +1,19 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "max_video_seconds": {
+    "S0_intro": 16,
+    "S1_interface": 14,
+    "S2_repair": 20,
+    "S3_turns": 24,
+    "S4_booked": 16,
+    "S5_outro": 16
+  },
+  "segments": {
+    "S0_intro": "Every time a voice agent mishears you, it asks you to repeat your whole sentence. A human never does that. If a receptionist missed one word, they ask about the specific word: Tuesday or Thursday? That is the entire idea behind Say Less.",
+    "S1_interface": "Here is Say Less running live on Render, connected over a persistent WebSocket to AssemblyAI Universal-Streaming. On the right is The Ledger: the domain membership list defining valid days, times, and services.",
+    "S2_repair": "Watch what happens with an out-of-menu request. A caller says: I would like to book a shampoo please. Notice the transcript: every word transcribed with high confidence. But shampoo is not on the menu. Say Less catches the membership failure and asks the targeted question: Which service?",
+    "S3_turns": "The caller replies: A haircut please, and the service is accepted. Tuesday locks in the day. Two p.m. locks in the time, and the surname Bennett is provided. Each turn updates the booking slip in real time.",
+    "S4_booked": "With all fields filled, the agent reads back the summary: haircut on Tuesday at two p.m. for Bennett, correct? The caller confirms, and the booking is instantly finalized with zero repetition.",
+    "S5_outro": "Tested on real human recordings, Say Less achieves one hundred percent commit accuracy and slashes re-said words by ninety-five percent. Say Less: ask about the word, not the sentence."
+  }
+}
